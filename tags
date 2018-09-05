@@ -1,0 +1,1039 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BINDIR	Makefile	/^BINDIR = ${exec_prefix}\/bin$/;"	m
+CC	Makefile	/^CC = gcc$/;"	m
+CC	example/Makefile	/^CC = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -g -O2 -std=c99 -Wall -fPIC -fsigned-char -O2$/;"	m
+CFLAGS	example/Makefile	/^CFLAGS = -ansi -Wall -pedantic -I. -I.. -Wall$/;"	m
+CMDLDFLAGS	Makefile	/^CMDLDFLAGS = $/;"	m
+COMMANDFILES	Makefile	/^COMMANDFILES = ttserver ttulmgr ttultest tcrtest tcrmttest tcrmgr$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS = -I. -I$(INCLUDEDIR) -I\/root\/include -I\/usr\/local\/include -DNDEBUG -D_GNU_SOURCE=1 -D_REENTRANT -D__EXTENSIONS__ \\$/;"	m
+DATADIR	Makefile	/^DATADIR = ${datarootdir}\/$(PACKAGE)$/;"	m
+DEFPIDPATH	ttserver.c	24;"	d	file:
+DEFRTSPATH	ttserver.c	25;"	d	file:
+DEFTHNUM	ttserver.c	23;"	d	file:
+DEFULIMSIZ	ttserver.c	26;"	d	file:
+DESTDIR	Makefile	/^DESTDIR =$/;"	m
+DOCUMENTFILES	Makefile	/^DOCUMENTFILES = COPYING ChangeLog THANKS doc$/;"	m
+EPOLLIN	myconf.h	/^  EPOLLIN = 1 << 0,$/;"	e	enum:__anon21
+EPOLLONESHOT	myconf.h	/^  EPOLLONESHOT = 1 << 8$/;"	e	enum:__anon21
+EPOLLOUT	myconf.h	/^  EPOLLOUT = 1 << 1,$/;"	e	enum:__anon21
+EPOLL_CTL_ADD	myconf.h	/^  EPOLL_CTL_ADD,$/;"	e	enum:__anon22
+EPOLL_CTL_DEL	myconf.h	/^  EPOLL_CTL_DEL$/;"	e	enum:__anon22
+EPOLL_CTL_MOD	myconf.h	/^  EPOLL_CTL_MOD,$/;"	e	enum:__anon22
+EXTPCARG	ttserver.c	/^} EXTPCARG;$/;"	t	typeref:struct:__anon32	file:
+HEADERFILES	Makefile	/^HEADERFILES = ttutil.h tculog.h tcrdb.h$/;"	m
+HTTPBODYMAXSIZ	ttutil.c	33;"	d	file:
+INCLUDEDIR	Makefile	/^INCLUDEDIR = ${prefix}\/include$/;"	m
+INITFILES	Makefile	/^INITFILES = ttservctl$/;"	m
+ITERVAR	scrext.c	157;"	d	file:
+LDENV	Makefile	/^LDENV = LD_RUN_PATH=\/lib:\/usr\/lib:$(LIBDIR):$(HOME)\/lib:\/usr\/local\/lib:$(LIBDIR):.$/;"	m
+LDENV	example/Makefile	/^LDENV = LD_RUN_PATH=\/lib:\/usr\/lib:$(HOME)\/lib:\/usr\/local\/lib:.:..$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS = -L. -L$(LIBDIR) -L\/root\/lib -L\/usr\/local\/lib$/;"	m
+LDFLAGS	example/Makefile	/^LDFLAGS =$/;"	m
+LIBDIR	Makefile	/^LIBDIR = ${exec_prefix}\/lib$/;"	m
+LIBEXECDIR	Makefile	/^LIBEXECDIR = ${exec_prefix}\/libexec$/;"	m
+LIBOBJFILES	Makefile	/^LIBOBJFILES = ttutil.o tculog.o tcrdb.o myconf.o$/;"	m
+LIBRARYFILES	Makefile	/^LIBRARYFILES = libtokyotyrant.a libtokyotyrant.so.3.16.0 libtokyotyrant.so.3 libtokyotyrant.so ttskelmock.so ttskeldir.so ttskelproxy.so ttskelnull.so$/;"	m
+LIBREV	Makefile	/^LIBREV = 16$/;"	m
+LIBS	Makefile	/^LIBS = -ltokyocabinet -lbz2 -lz -lresolv -lnsl -ldl -lrt -lpthread -lm -lc $/;"	m
+LIBS	example/Makefile	/^LIBS = -L. -L.. -ltokyotyrant -ltokyocabinet -lz -lresolv -lnsl -lpthread -lm -lc$/;"	m
+LIBVER	Makefile	/^LIBVER = 3$/;"	m
+LINEBUFSIZ	ttserver.c	30;"	d	file:
+LOGARG	ttserver.c	/^} LOGARG;$/;"	t	typeref:struct:__anon30	file:
+MAN1DIR	Makefile	/^MAN1DIR = ${datarootdir}\/man\/man1$/;"	m
+MAN1FILES	Makefile	/^MAN1FILES = ttserver.1 ttulmgr.1 ttultest.1 tcrtest.1 tcrmttest.1 tcrmgr.1$/;"	m
+MAN3DIR	Makefile	/^MAN3DIR = ${datarootdir}\/man\/man3$/;"	m
+MAN3FILES	Makefile	/^MAN3FILES = ttutil.3 tculog.3 tcrdb.3$/;"	m
+MAN8DIR	Makefile	/^MAN8DIR = ${datarootdir}\/man\/man8$/;"	m
+MAN8FILES	Makefile	/^MAN8FILES = ttservctl.8$/;"	m
+MAXARGNUM	ttserver.c	28;"	d	file:
+MAXARGSIZ	ttserver.c	27;"	d	file:
+MINIBNUM	tcrmgr.c	22;"	d	file:
+MRMAPVAR	scrext.c	158;"	d	file:
+MRPOOLVAR	scrext.c	160;"	d	file:
+MRREDVAR	scrext.c	159;"	d	file:
+MYBINS	example/Makefile	/^MYBINS = tcrdbex tcrdbtblex$/;"	m
+MYCDIRSTR	myconf.h	264;"	d
+MYEXTCHR	myconf.h	262;"	d
+MYEXTSTR	myconf.h	263;"	d
+MYPATHCHR	myconf.h	260;"	d
+MYPATHSTR	myconf.h	261;"	d
+MYPDIRSTR	myconf.h	265;"	d
+NULLDEV	ttutil.c	1355;"	d	file:
+NUMBUFSIZ	ttserver.c	29;"	d	file:
+PACKAGE	Makefile	/^PACKAGE = tokyotyrant$/;"	m
+PACKAGEDIR	Makefile	/^PACKAGEDIR = $(PACKAGE)-$(VERSION)$/;"	m
+PACKAGETGZ	Makefile	/^PACKAGETGZ = $(PACKAGE)-$(VERSION).tar.gz$/;"	m
+PCDIR	Makefile	/^PCDIR = ${exec_prefix}\/lib\/pkgconfig$/;"	m
+PCFILES	Makefile	/^PCFILES = tokyotyrant.pc$/;"	m
+POSTCMD	Makefile	/^POSTCMD = true$/;"	m
+PROTVER	Makefile	/^PROTVER = 0.91$/;"	m
+RDBITDECIMAL	tcrdb.h	/^  RDBITDECIMAL = TDBITDECIMAL,           \/* decimal string *\/$/;"	e	enum:__anon7
+RDBITKEEP	tcrdb.h	/^  RDBITKEEP = TDBITKEEP                  \/* keep existing index *\/$/;"	e	enum:__anon7
+RDBITLEXICAL	tcrdb.h	/^  RDBITLEXICAL = TDBITLEXICAL,           \/* lexical string *\/$/;"	e	enum:__anon7
+RDBITOPT	tcrdb.h	/^  RDBITOPT = TDBITOPT,                   \/* optimize *\/$/;"	e	enum:__anon7
+RDBITQGRAM	tcrdb.h	/^  RDBITQGRAM = TDBITQGRAM,               \/* q-gram inverted index *\/$/;"	e	enum:__anon7
+RDBITTOKEN	tcrdb.h	/^  RDBITTOKEN = TDBITTOKEN,               \/* token inverted index *\/$/;"	e	enum:__anon7
+RDBITVOID	tcrdb.h	/^  RDBITVOID = TDBITVOID,                 \/* void *\/$/;"	e	enum:__anon7
+RDBMONOULOG	tcrdb.h	/^  RDBMONOULOG = 1 << 0                   \/* omission of update log *\/$/;"	e	enum:__anon6
+RDBMSDIFF	tcrdb.h	/^  RDBMSDIFF = TDBMSDIFF                  \/* difference *\/$/;"	e	enum:__anon11
+RDBMSISECT	tcrdb.h	/^  RDBMSISECT = TDBMSISECT,               \/* intersection *\/$/;"	e	enum:__anon11
+RDBMSUNION	tcrdb.h	/^  RDBMSUNION = TDBMSUNION,               \/* union *\/$/;"	e	enum:__anon11
+RDBQCFTSAND	tcrdb.h	/^  RDBQCFTSAND = TDBQCFTSAND,             \/* full-text search with all tokens in *\/$/;"	e	enum:__anon9
+RDBQCFTSEX	tcrdb.h	/^  RDBQCFTSEX = TDBQCFTSEX,               \/* full-text search with the compound expression of *\/$/;"	e	enum:__anon9
+RDBQCFTSOR	tcrdb.h	/^  RDBQCFTSOR = TDBQCFTSOR,               \/* full-text search with at least one token in *\/$/;"	e	enum:__anon9
+RDBQCFTSPH	tcrdb.h	/^  RDBQCFTSPH = TDBQCFTSPH,               \/* full-text search with the phrase of *\/$/;"	e	enum:__anon9
+RDBQCNEGATE	tcrdb.h	/^  RDBQCNEGATE = TDBQCNEGATE,             \/* negation flag *\/$/;"	e	enum:__anon9
+RDBQCNOIDX	tcrdb.h	/^  RDBQCNOIDX = TDBQCNOIDX                \/* no index flag *\/$/;"	e	enum:__anon9
+RDBQCNUMBT	tcrdb.h	/^  RDBQCNUMBT = TDBQCNUMBT,               \/* number is between two tokens of *\/$/;"	e	enum:__anon9
+RDBQCNUMEQ	tcrdb.h	/^  RDBQCNUMEQ = TDBQCNUMEQ,               \/* number is equal to *\/$/;"	e	enum:__anon9
+RDBQCNUMGE	tcrdb.h	/^  RDBQCNUMGE = TDBQCNUMGE,               \/* number is greater than or equal to *\/$/;"	e	enum:__anon9
+RDBQCNUMGT	tcrdb.h	/^  RDBQCNUMGT = TDBQCNUMGT,               \/* number is greater than *\/$/;"	e	enum:__anon9
+RDBQCNUMLE	tcrdb.h	/^  RDBQCNUMLE = TDBQCNUMLE,               \/* number is less than or equal to *\/$/;"	e	enum:__anon9
+RDBQCNUMLT	tcrdb.h	/^  RDBQCNUMLT = TDBQCNUMLT,               \/* number is less than *\/$/;"	e	enum:__anon9
+RDBQCNUMOREQ	tcrdb.h	/^  RDBQCNUMOREQ = TDBQCNUMOREQ,           \/* number is equal to at least one token in *\/$/;"	e	enum:__anon9
+RDBQCSTRAND	tcrdb.h	/^  RDBQCSTRAND = TDBQCSTRAND,             \/* string includes all tokens in *\/$/;"	e	enum:__anon9
+RDBQCSTRBW	tcrdb.h	/^  RDBQCSTRBW = TDBQCSTRBW,               \/* string begins with *\/$/;"	e	enum:__anon9
+RDBQCSTREQ	tcrdb.h	/^  RDBQCSTREQ = TDBQCSTREQ,               \/* string is equal to *\/$/;"	e	enum:__anon9
+RDBQCSTREW	tcrdb.h	/^  RDBQCSTREW = TDBQCSTREW,               \/* string ends with *\/$/;"	e	enum:__anon9
+RDBQCSTRINC	tcrdb.h	/^  RDBQCSTRINC = TDBQCSTRINC,             \/* string is included in *\/$/;"	e	enum:__anon9
+RDBQCSTROR	tcrdb.h	/^  RDBQCSTROR = TDBQCSTROR,               \/* string includes at least one token in *\/$/;"	e	enum:__anon9
+RDBQCSTROREQ	tcrdb.h	/^  RDBQCSTROREQ = TDBQCSTROREQ,           \/* string is equal to at least one token in *\/$/;"	e	enum:__anon9
+RDBQCSTRRX	tcrdb.h	/^  RDBQCSTRRX = TDBQCSTRRX,               \/* string matches regular expressions of *\/$/;"	e	enum:__anon9
+RDBQONUMASC	tcrdb.h	/^  RDBQONUMASC = TDBQONUMASC,             \/* number ascending *\/$/;"	e	enum:__anon10
+RDBQONUMDESC	tcrdb.h	/^  RDBQONUMDESC = TDBQONUMDESC            \/* number descending *\/$/;"	e	enum:__anon10
+RDBQOSTRASC	tcrdb.h	/^  RDBQOSTRASC = TDBQOSTRASC,             \/* string ascending *\/$/;"	e	enum:__anon10
+RDBQOSTRDESC	tcrdb.h	/^  RDBQOSTRDESC = TDBQOSTRDESC,           \/* string descending *\/$/;"	e	enum:__anon10
+RDBQRY	tcrdb.h	/^} RDBQRY;$/;"	t	typeref:struct:__anon8
+RDBROCHKCON	tcrdb.h	/^  RDBROCHKCON = 1 << 0                   \/* consistency checking *\/$/;"	e	enum:__anon5
+RDBTRECON	tcrdb.h	/^  RDBTRECON = 1 << 0                     \/* reconnect automatically *\/$/;"	e	enum:__anon3
+RDBXOLCKGLB	tcrdb.h	/^  RDBXOLCKGLB = 1 << 1                   \/* global locking *\/$/;"	e	enum:__anon4
+RDBXOLCKREC	tcrdb.h	/^  RDBXOLCKREC = 1 << 0,                  \/* record locking *\/$/;"	e	enum:__anon4
+RECBUFSIZ	tcrmttest.c	20;"	d	file:
+RECBUFSIZ	tcrtest.c	20;"	d	file:
+RECBUFSIZ	ttulmgr.c	20;"	d	file:
+RECBUFSIZ	ttultest.c	20;"	d	file:
+RECMTXNUM	ttserver.c	32;"	d	file:
+REPLARG	ttserver.c	/^} REPLARG;$/;"	t	typeref:struct:__anon31	file:
+REPLPERIOD	ttserver.c	34;"	d	file:
+REQHEADMAX	tcrmgr.c	21;"	d	file:
+RUNENV	Makefile	/^RUNENV = LD_LIBRARY_PATH=.:\/lib:\/usr\/lib:$(LIBDIR):$(HOME)\/lib:\/usr\/local\/lib:$(LIBDIR)$/;"	m
+SBINDIR	Makefile	/^SBINDIR = ${exec_prefix}\/sbin$/;"	m
+SCREXT	scrext.c	/^} SCREXT;$/;"	t	typeref:struct:_SCREXT	file:
+SCREXT	scrext.c	/^} SCREXT;$/;"	t	typeref:struct:__anon12	file:
+SCREXTFILES	Makefile	/^SCREXTFILES = ext$/;"	m
+SERV	scrext.c	/^} SERV;$/;"	t	typeref:struct:__anon13	file:
+SERVVAR	scrext.c	156;"	d	file:
+SHELL	Makefile	/^SHELL = \/bin\/bash$/;"	m
+SHELL	example/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SOCKCNCTTIMEO	ttutil.c	30;"	d	file:
+SOCKLINEBUFSIZ	ttutil.c	31;"	d	file:
+SOCKLINEMAXSIZ	ttutil.c	32;"	d	file:
+SOCKPATHBUFSIZ	ttutil.c	27;"	d	file:
+SOCKRCVTIMEO	ttutil.c	28;"	d	file:
+SOCKSNDTIMEO	ttutil.c	29;"	d	file:
+STASHBNUM	ttserver.c	33;"	d	file:
+TARGREAD	tcrmttest.c	/^} TARGREAD;$/;"	t	typeref:struct:__anon16	file:
+TARGREAD	ttulmgr.c	/^} TARGREAD;$/;"	t	typeref:struct:__anon24	file:
+TARGREAD	ttultest.c	/^} TARGREAD;$/;"	t	typeref:struct:__anon14	file:
+TARGREMOVE	tcrmttest.c	/^} TARGREMOVE;$/;"	t	typeref:struct:__anon17	file:
+TARGTABLE	tcrmttest.c	/^} TARGTABLE;$/;"	t	typeref:struct:__anon19	file:
+TARGTYPICAL	tcrmttest.c	/^} TARGTYPICAL;$/;"	t	typeref:struct:__anon18	file:
+TARGWRITE	tcrmttest.c	/^} TARGWRITE;$/;"	t	typeref:struct:__anon15	file:
+TASKARG	ttserver.c	/^} TASKARG;$/;"	t	typeref:struct:__anon33	file:
+TCDDB	ttskeldir.c	/^} TCDDB;$/;"	t	typeref:struct:__anon23	file:
+TCRDB	tcrdb.h	/^} TCRDB;$/;"	t	typeref:struct:__anon1
+TCREPL	tculog.h	/^} TCREPL;$/;"	t	typeref:struct:__anon27
+TCREPLTIMEO	tculog.c	23;"	d	file:
+TCULAIOCBNUM	tculog.c	21;"	d	file:
+TCULMAGICNOP	tculog.h	48;"	d
+TCULMAGICNUM	tculog.h	47;"	d
+TCULOG	tculog.h	/^} TCULOG;$/;"	t	typeref:struct:__anon25
+TCULRD	tculog.h	/^} TCULRD;$/;"	t	typeref:struct:__anon26
+TCULRMTXNUM	tculog.h	49;"	d
+TCULSUFFIX	tculog.h	46;"	d
+TCULTMDEVALW	tculog.c	22;"	d	file:
+TERMARG	ttserver.c	/^} TERMARG;$/;"	t	typeref:struct:__anon34	file:
+TOKENUNIT	ttserver.c	31;"	d	file:
+TRILLIONNUM	ttutil.c	34;"	d	file:
+TTADDRBUFSIZ	ttutil.c	799;"	d	file:
+TTADDRBUFSIZ	ttutil.h	45;"	d
+TTBIGEND	myconf.h	146;"	d
+TTBIGEND	myconf.h	154;"	d
+TTCMDADDDOUBLE	ttutil.h	274;"	d
+TTCMDADDINT	ttutil.h	273;"	d
+TTCMDCOPY	ttutil.h	279;"	d
+TTCMDEXT	ttutil.h	275;"	d
+TTCMDFWMKEYS	ttutil.h	272;"	d
+TTCMDGET	ttutil.h	267;"	d
+TTCMDITERINIT	ttutil.h	270;"	d
+TTCMDITERNEXT	ttutil.h	271;"	d
+TTCMDMGET	ttutil.h	268;"	d
+TTCMDMISC	ttutil.h	285;"	d
+TTCMDOPTIMIZE	ttutil.h	277;"	d
+TTCMDOUT	ttutil.h	266;"	d
+TTCMDPUT	ttutil.h	261;"	d
+TTCMDPUTCAT	ttutil.h	263;"	d
+TTCMDPUTKEEP	ttutil.h	262;"	d
+TTCMDPUTNR	ttutil.h	265;"	d
+TTCMDPUTSHL	ttutil.h	264;"	d
+TTCMDREPL	ttutil.h	286;"	d
+TTCMDRESTORE	ttutil.h	280;"	d
+TTCMDRNUM	ttutil.h	282;"	d
+TTCMDSETMST	ttutil.h	281;"	d
+TTCMDSIZE	ttutil.h	283;"	d
+TTCMDSTAT	ttutil.h	284;"	d
+TTCMDSYNC	ttutil.h	276;"	d
+TTCMDVANISH	ttutil.h	278;"	d
+TTCMDVSIZ	ttutil.h	269;"	d
+TTDEFPORT	ttutil.h	259;"	d
+TTDEFTHNUM	ttutil.c	800;"	d	file:
+TTDODEBUG	myconf.h	109;"	d
+TTDODEBUG	myconf.h	113;"	d
+TTEINVALID	tcrdb.h	/^  TTEINVALID,                            \/* invalid operation *\/$/;"	e	enum:__anon2
+TTEKEEP	tcrdb.h	/^  TTEKEEP,                               \/* existing record *\/$/;"	e	enum:__anon2
+TTEMISC	tcrdb.h	/^  TTEMISC = 9999                         \/* miscellaneous error *\/$/;"	e	enum:__anon2
+TTENOHOST	tcrdb.h	/^  TTENOHOST,                             \/* host not found *\/$/;"	e	enum:__anon2
+TTENOREC	tcrdb.h	/^  TTENOREC,                              \/* no record found *\/$/;"	e	enum:__anon2
+TTERECV	tcrdb.h	/^  TTERECV,                               \/* recv error *\/$/;"	e	enum:__anon2
+TTEREFUSED	tcrdb.h	/^  TTEREFUSED,                            \/* connection refused *\/$/;"	e	enum:__anon2
+TTESEND	tcrdb.h	/^  TTESEND,                               \/* send error *\/$/;"	e	enum:__anon2
+TTESUCCESS	tcrdb.h	/^  TTESUCCESS,                            \/* success *\/$/;"	e	enum:__anon2
+TTEVENTMAX	ttutil.c	801;"	d	file:
+TTHTONL	myconf.h	148;"	d
+TTHTONL	myconf.h	156;"	d
+TTHTONLL	myconf.h	149;"	d
+TTHTONLL	myconf.h	157;"	d
+TTHTONS	myconf.h	147;"	d
+TTHTONS	myconf.h	155;"	d
+TTIOBUFSIZ	ttutil.h	44;"	d
+TTLOGDEBUG	ttutil.h	/^  TTLOGDEBUG,                            \/* debug *\/$/;"	e	enum:__anon29
+TTLOGERROR	ttutil.h	/^  TTLOGERROR,                            \/* error *\/$/;"	e	enum:__anon29
+TTLOGINFO	ttutil.h	/^  TTLOGINFO,                             \/* information *\/$/;"	e	enum:__anon29
+TTLOGSYSTEM	ttutil.h	/^  TTLOGSYSTEM                            \/* system *\/$/;"	e	enum:__anon29
+TTLUAEXT	scrext.h	34;"	d
+TTMAGICNUM	ttutil.h	260;"	d
+TTMSKADDDOUBLE	ttserver.c	49;"	d	file:
+TTMSKADDINT	ttserver.c	48;"	d	file:
+TTMSKALLHTTP	ttserver.c	65;"	d	file:
+TTMSKALLMANAGE	ttserver.c	68;"	d	file:
+TTMSKALLMC	ttserver.c	64;"	d	file:
+TTMSKALLORG	ttserver.c	63;"	d	file:
+TTMSKALLREAD	ttserver.c	66;"	d	file:
+TTMSKALLWRITE	ttserver.c	67;"	d	file:
+TTMSKCOPY	ttserver.c	54;"	d	file:
+TTMSKEXT	ttserver.c	50;"	d	file:
+TTMSKFWMKEYS	ttserver.c	47;"	d	file:
+TTMSKGET	ttserver.c	42;"	d	file:
+TTMSKITERINIT	ttserver.c	45;"	d	file:
+TTMSKITERNEXT	ttserver.c	46;"	d	file:
+TTMSKMGET	ttserver.c	43;"	d	file:
+TTMSKMISC	ttserver.c	60;"	d	file:
+TTMSKOPTIMIZE	ttserver.c	52;"	d	file:
+TTMSKOUT	ttserver.c	41;"	d	file:
+TTMSKPUT	ttserver.c	36;"	d	file:
+TTMSKPUTCAT	ttserver.c	38;"	d	file:
+TTMSKPUTKEEP	ttserver.c	37;"	d	file:
+TTMSKPUTNR	ttserver.c	40;"	d	file:
+TTMSKPUTSHL	ttserver.c	39;"	d	file:
+TTMSKREPL	ttserver.c	61;"	d	file:
+TTMSKRESTORE	ttserver.c	55;"	d	file:
+TTMSKRNUM	ttserver.c	57;"	d	file:
+TTMSKSETMST	ttserver.c	56;"	d	file:
+TTMSKSIZE	ttserver.c	58;"	d	file:
+TTMSKSLAVE	ttserver.c	62;"	d	file:
+TTMSKSTAT	ttserver.c	59;"	d	file:
+TTMSKSYNC	ttserver.c	51;"	d	file:
+TTMSKVANISH	ttserver.c	53;"	d	file:
+TTMSKVSIZ	ttserver.c	44;"	d	file:
+TTNOEXT	scrext.h	36;"	d
+TTNTOHL	myconf.h	151;"	d
+TTNTOHL	myconf.h	159;"	d
+TTNTOHLL	myconf.h	152;"	d
+TTNTOHLL	myconf.h	160;"	d
+TTNTOHS	myconf.h	150;"	d
+TTNTOHS	myconf.h	158;"	d
+TTNUMBUFSIZ	myconf.h	321;"	d
+TTREADVNUMBUF	myconf.h	368;"	d
+TTREADVNUMBUF64	myconf.h	386;"	d
+TTREQ	ttutil.h	/^} TTREQ;$/;"	t	typeref:struct:_TTREQ
+TTSERV	ttutil.h	/^} TTSERV;$/;"	t	typeref:struct:_TTSERV
+TTSETVNUMBUF	myconf.h	324;"	d
+TTSETVNUMBUF64	myconf.h	346;"	d
+TTSOCK	ttutil.h	/^} TTSOCK;$/;"	t	typeref:struct:__anon28
+TTSWAB16	myconf.h	119;"	d
+TTSWAB32	myconf.h	125;"	d
+TTSWAB64	myconf.h	133;"	d
+TTSYSNAME	myconf.h	30;"	d
+TTSYSNAME	myconf.h	35;"	d
+TTSYSNAME	myconf.h	40;"	d
+TTSYSNAME	myconf.h	45;"	d
+TTSYSNAME	myconf.h	50;"	d
+TTSYSNAME	myconf.h	55;"	d
+TTSYSNAME	myconf.h	60;"	d
+TTSYSNAME	myconf.h	65;"	d
+TTSYSNAME	myconf.h	70;"	d
+TTSYSNAME	myconf.h	75;"	d
+TTSYSNAME	myconf.h	80;"	d
+TTSYSNAME	myconf.h	85;"	d
+TTSYSNAME	myconf.h	90;"	d
+TTTIMER	ttutil.h	/^} TTTIMER;$/;"	t	typeref:struct:_TTTIMER
+TTTIMERMAX	ttutil.h	288;"	d
+TTUSEEVPORTS	myconf.h	232;"	d
+TTUSEKQUEUE	myconf.h	218;"	d
+TTWAITREQUEST	ttutil.c	802;"	d	file:
+TTWAITWORKER	ttutil.c	803;"	d	file:
+VERSION	Makefile	/^VERSION = 1.1.33$/;"	m
+_MYCONF_H	myconf.h	18;"	d
+_SCREXT	scrext.c	/^typedef struct _SCREXT {                 \/\/ type of structure of the script extension$/;"	s	file:
+_SCREXT_H	scrext.h	18;"	d
+_SYS_AIX_	myconf.h	64;"	d
+_SYS_CYGWIN_	myconf.h	84;"	d
+_SYS_FREEBSD_	myconf.h	34;"	d
+_SYS_GENERIC_	myconf.h	89;"	d
+_SYS_HPUX_	myconf.h	54;"	d
+_SYS_LINUX_	myconf.h	29;"	d
+_SYS_MACOSX_	myconf.h	69;"	d
+_SYS_MINGW_	myconf.h	79;"	d
+_SYS_MSVC_	myconf.h	74;"	d
+_SYS_NETBSD_	myconf.h	39;"	d
+_SYS_OPENBSD_	myconf.h	44;"	d
+_SYS_SUNOS_	myconf.h	49;"	d
+_SYS_TRU64_	myconf.h	59;"	d
+_TCRDB_H	tcrdb.h	18;"	d
+_TCULOG_H	tculog.h	18;"	d
+_TTREQ	ttutil.h	/^typedef struct _TTREQ {                  \/* type of structure for a server *\/$/;"	s
+_TTSERV	ttutil.h	/^typedef struct _TTSERV {                 \/* type of structure for a server *\/$/;"	s
+_TTTIMER	ttutil.h	/^typedef struct _TTTIMER {                \/* type of structure for a timer *\/$/;"	s
+_TTUTIL_H	ttutil.h	18;"	d
+_TT_LIBVER	ttutil.h	448;"	d
+_TT_PROTVER	ttutil.h	449;"	d
+_TT_VERSION	ttutil.h	447;"	d
+__TCRDB_CLINKAGEBEGIN	tcrdb.h	21;"	d
+__TCRDB_CLINKAGEBEGIN	tcrdb.h	24;"	d
+__TCRDB_CLINKAGEEND	tcrdb.h	22;"	d
+__TCRDB_CLINKAGEEND	tcrdb.h	25;"	d
+__TCULOG_CLINKAGEBEGIN	tculog.h	21;"	d
+__TCULOG_CLINKAGEBEGIN	tculog.h	24;"	d
+__TCULOG_CLINKAGEEND	tculog.h	22;"	d
+__TCULOG_CLINKAGEEND	tculog.h	25;"	d
+__TTUTIL_CLINKAGEBEGIN	ttutil.h	21;"	d
+__TTUTIL_CLINKAGEBEGIN	ttutil.h	24;"	d
+__TTUTIL_CLINKAGEEND	ttutil.h	22;"	d
+__TTUTIL_CLINKAGEEND	ttutil.h	25;"	d
+_ascii	configure	/^ _ascii (); _ebcdic ();$/;"	f
+_begin	ext/mapreduce.lua	/^function _begin()$/;"	f
+_begin	ext/senatus.lua	/^function _begin()$/;"	f
+_begin	ext/usherette.lua	/^function _begin()$/;"	f
+_end	ext/mapreduce.lua	/^function _end()$/;"	f
+_end	ext/senatus.lua	/^function _end()$/;"	f
+_end	ext/usherette.lua	/^function _end()$/;"	f
+_outimpl	ext/usherette.lua	/^function _outimpl(id, text)$/;"	f
+_putimpl	ext/usherette.lua	/^function _putimpl(id, text)$/;"	f
+_searchimpl	ext/usherette.lua	/^function _searchimpl(phrase, union)$/;"	f
+_tokenize	ext/usherette.lua	/^function _tokenize(text)$/;"	f
+_tt_dummyfunc	myconf.c	/^int _tt_dummyfunc(void){$/;"	f
+_tt_dummyfuncv	myconf.c	/^int _tt_dummyfuncv(int a, ...){$/;"	f
+_tt_epoll_create	myconf.c	/^int _tt_epoll_create(int size){$/;"	f
+_tt_epoll_ctl	myconf.c	/^int _tt_epoll_ctl(int epfd, int op, int fd, struct epoll_event *event){$/;"	f
+_tt_epoll_reassoc	myconf.c	/^int _tt_epoll_reassoc(int epfd, int fd){$/;"	f
+_tt_epoll_wait	myconf.c	/^int _tt_epoll_wait(int epfd, struct epoll_event *events, int maxevents, int timeout){$/;"	f
+_xoutimpl	ext/usherette.lua	/^function _xoutimpl(uri)$/;"	f
+_xputimpl	ext/usherette.lua	/^function _xputimpl(uri, text)$/;"	f
+adb	scrext.c	/^  TCADB *adb;                            \/\/ abstract database object$/;"	m	struct:_SCREXT	file:
+adb	scrext.c	/^  TCADB *adb;                            \/\/ abstract database object$/;"	m	struct:__anon13	file:
+adb	ttserver.c	/^  TCADB *adb;                            \/\/ database object$/;"	m	struct:__anon31	file:
+adb	ttserver.c	/^  TCADB *adb;                            \/\/ database object$/;"	m	struct:__anon32	file:
+adb	ttserver.c	/^  TCADB *adb;                            \/\/ database object$/;"	m	struct:__anon33	file:
+adb	ttserver.c	/^  TCADB *adb;                            \/\/ database object$/;"	m	struct:__anon34	file:
+add	lab/footprint.lua	/^function add(key, value)$/;"	f
+adddouble	ext/senatus.lua	/^function adddouble(key, value)$/;"	f
+addint	ext/senatus.lua	/^function addint(key, value)$/;"	f
+addr	ttutil.h	/^  char addr[TTADDRBUFSIZ];               \/* host address *\/$/;"	m	struct:_TTSERV
+aiocbi	tculog.h	/^  int aiocbi;                            \/* index of AIO tasks *\/$/;"	m	struct:__anon25
+aiocbs	tculog.h	/^  void *aiocbs;                          \/* AIO tasks *\/$/;"	m	struct:__anon25
+aioend	tculog.h	/^  uint64_t aioend;                       \/* end offset of AIO tasks *\/$/;"	m	struct:__anon25
+alive	ttutil.h	/^  bool alive;                            \/* alive flag *\/$/;"	m	struct:_TTREQ
+alive	ttutil.h	/^  bool alive;                            \/* alive flag *\/$/;"	m	struct:_TTTIMER
+args	tcrdb.h	/^  TCLIST *args;                          \/* arguments for the method *\/$/;"	m	struct:__anon8
+as_func_failure	configure	/^as_func_failure () {$/;"	f
+as_func_ret_failure	configure	/^as_func_ret_failure () {$/;"	f
+as_func_ret_success	configure	/^as_func_ret_success () {$/;"	f
+as_func_success	configure	/^as_func_success () {$/;"	f
+base	tculog.h	/^  char *base;                            \/* path of the base directory *\/$/;"	m	struct:__anon25
+bitand	ext/senatus.lua	/^function bitand(key, value)$/;"	f
+buf	ttutil.h	/^  char buf[TTIOBUFSIZ];                  \/* reading buffer *\/$/;"	m	struct:__anon28
+cnd	tculog.h	/^  pthread_cond_t cnd;                    \/* condition variable *\/$/;"	m	struct:__anon25
+codec	ext/senatus.lua	/^function codec(key, value)$/;"	f
+data	myconf.h	/^  } data;$/;"	m	struct:epoll_event	typeref:union:epoll_event::__anon20
+datarootdir	Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+defrag	ext/senatus.lua	/^function defrag()$/;"	f
+dequeue	ext/queue.lua	/^function dequeue(key, max)$/;"	f
+dist	ext/senatus.lua	/^function dist(key, value)$/;"	f
+dl	ttutil.h	/^  double dl;                             \/* deadline time *\/$/;"	m	struct:__anon28
+do_adddouble	ttserver.c	/^static void do_adddouble(TTSOCK *sock, TASKARG *arg, TTREQ *req){$/;"	f	file:
+do_addint	ttserver.c	/^static void do_addint(TTSOCK *sock, TASKARG *arg, TTREQ *req){$/;"	f	file:
+do_bet	lab/highlow.lua	/^function do_bet(key, value, ishigh)$/;"	f
+do_copy	ttserver.c	/^static void do_copy(TTSOCK *sock, TASKARG *arg, TTREQ *req){$/;"	f	file:
+do_ext	ttserver.c	/^static void do_ext(TTSOCK *sock, TASKARG *arg, TTREQ *req){$/;"	f	file:
+do_extpc	ttserver.c	/^static void do_extpc(void *opq){$/;"	f	file:
+do_fwmkeys	ttserver.c	/^static void do_fwmkeys(TTSOCK *sock, TASKARG *arg, TTREQ *req){$/;"	f	file:
+do_get	ttserver.c	/^static void do_get(TTSOCK *sock, TASKARG *arg, TTREQ *req){$/;"	f	file:
+do_http_delete	ttserver.c	/^static void do_http_delete(TTSOCK *sock, TASKARG *arg, TTREQ *req, int ver, const char *uri){$/;"	f	file:
+do_http_get	ttserver.c	/^static void do_http_get(TTSOCK *sock, TASKARG *arg, TTREQ *req, int ver, const char *uri){$/;"	f	file:
+do_http_head	ttserver.c	/^static void do_http_head(TTSOCK *sock, TASKARG *arg, TTREQ *req, int ver, const char *uri){$/;"	f	file:
+do_http_options	ttserver.c	/^static void do_http_options(TTSOCK *sock, TASKARG *arg, TTREQ *req, int ver, const char *uri){$/;"	f	file:
+do_http_post	ttserver.c	/^static void do_http_post(TTSOCK *sock, TASKARG *arg, TTREQ *req, int ver, const char *uri){$/;"	f	file:
+do_http_put	ttserver.c	/^static void do_http_put(TTSOCK *sock, TASKARG *arg, TTREQ *req, int ver, const char *uri){$/;"	f	file:
+do_iterinit	ttserver.c	/^static void do_iterinit(TTSOCK *sock, TASKARG *arg, TTREQ *req){$/;"	f	file:
+do_iternext	ttserver.c	/^static void do_iternext(TTSOCK *sock, TASKARG *arg, TTREQ *req){$/;"	f	file:
+do_log	ttserver.c	/^static void do_log(int level, const char *msg, void *opq){$/;"	f	file:
+do_log	ttutil.h	/^  void (*do_log)(int, const char *, void *);  \/* call back function for logging *\/$/;"	m	struct:_TTSERV
+do_mc_add	ttserver.c	/^static void do_mc_add(TTSOCK *sock, TASKARG *arg, TTREQ *req, char **tokens, int tnum){$/;"	f	file:
+do_mc_decr	ttserver.c	/^static void do_mc_decr(TTSOCK *sock, TASKARG *arg, TTREQ *req, char **tokens, int tnum){$/;"	f	file:
+do_mc_delete	ttserver.c	/^static void do_mc_delete(TTSOCK *sock, TASKARG *arg, TTREQ *req, char **tokens, int tnum){$/;"	f	file:
+do_mc_flushall	ttserver.c	/^static void do_mc_flushall(TTSOCK *sock, TASKARG *arg, TTREQ *req, char **tokens, int tnum){$/;"	f	file:
+do_mc_get	ttserver.c	/^static void do_mc_get(TTSOCK *sock, TASKARG *arg, TTREQ *req, char **tokens, int tnum){$/;"	f	file:
+do_mc_incr	ttserver.c	/^static void do_mc_incr(TTSOCK *sock, TASKARG *arg, TTREQ *req, char **tokens, int tnum){$/;"	f	file:
+do_mc_quit	ttserver.c	/^static void do_mc_quit(TTSOCK *sock, TASKARG *arg, TTREQ *req, char **tokens, int tnum){$/;"	f	file:
+do_mc_replace	ttserver.c	/^static void do_mc_replace(TTSOCK *sock, TASKARG *arg, TTREQ *req, char **tokens, int tnum){$/;"	f	file:
+do_mc_set	ttserver.c	/^static void do_mc_set(TTSOCK *sock, TASKARG *arg, TTREQ *req, char **tokens, int tnum){$/;"	f	file:
+do_mc_stats	ttserver.c	/^static void do_mc_stats(TTSOCK *sock, TASKARG *arg, TTREQ *req, char **tokens, int tnum){$/;"	f	file:
+do_mc_version	ttserver.c	/^static void do_mc_version(TTSOCK *sock, TASKARG *arg, TTREQ *req, char **tokens, int tnum){$/;"	f	file:
+do_mget	ttserver.c	/^static void do_mget(TTSOCK *sock, TASKARG *arg, TTREQ *req){$/;"	f	file:
+do_misc	ttserver.c	/^static void do_misc(TTSOCK *sock, TASKARG *arg, TTREQ *req){$/;"	f	file:
+do_optimize	ttserver.c	/^static void do_optimize(TTSOCK *sock, TASKARG *arg, TTREQ *req){$/;"	f	file:
+do_out	ttserver.c	/^static void do_out(TTSOCK *sock, TASKARG *arg, TTREQ *req){$/;"	f	file:
+do_put	ttserver.c	/^static void do_put(TTSOCK *sock, TASKARG *arg, TTREQ *req){$/;"	f	file:
+do_putcat	ttserver.c	/^static void do_putcat(TTSOCK *sock, TASKARG *arg, TTREQ *req){$/;"	f	file:
+do_putkeep	ttserver.c	/^static void do_putkeep(TTSOCK *sock, TASKARG *arg, TTREQ *req){$/;"	f	file:
+do_putnr	ttserver.c	/^static void do_putnr(TTSOCK *sock, TASKARG *arg, TTREQ *req){$/;"	f	file:
+do_putshl	ttserver.c	/^static void do_putshl(TTSOCK *sock, TASKARG *arg, TTREQ *req){$/;"	f	file:
+do_repl	ttserver.c	/^static void do_repl(TTSOCK *sock, TASKARG *arg, TTREQ *req){$/;"	f	file:
+do_restore	ttserver.c	/^static void do_restore(TTSOCK *sock, TASKARG *arg, TTREQ *req){$/;"	f	file:
+do_rnum	ttserver.c	/^static void do_rnum(TTSOCK *sock, TASKARG *arg, TTREQ *req){$/;"	f	file:
+do_setmst	ttserver.c	/^static void do_setmst(TTSOCK *sock, TASKARG *arg, TTREQ *req){$/;"	f	file:
+do_size	ttserver.c	/^static void do_size(TTSOCK *sock, TASKARG *arg, TTREQ *req){$/;"	f	file:
+do_slave	ttserver.c	/^static void do_slave(void *opq){$/;"	f	file:
+do_stat	ttserver.c	/^static void do_stat(TTSOCK *sock, TASKARG *arg, TTREQ *req){$/;"	f	file:
+do_sync	ttserver.c	/^static void do_sync(TTSOCK *sock, TASKARG *arg, TTREQ *req){$/;"	f	file:
+do_task	ttserver.c	/^static void do_task(TTSOCK *sock, void *opq, TTREQ *req){$/;"	f	file:
+do_task	ttutil.h	/^  void (*do_task)(TTSOCK *, void *, TTREQ *);  \/* call back function for task *\/$/;"	m	struct:_TTSERV
+do_term	ttserver.c	/^static void do_term(void *opq){$/;"	f	file:
+do_term	ttutil.h	/^  void (*do_term)(void *);               \/* call back gunction for termination *\/$/;"	m	struct:_TTSERV
+do_timed	ttutil.h	/^  void (*do_timed)(void *);              \/* call back function for timed handler *\/$/;"	m	struct:_TTTIMER
+do_vanish	ttserver.c	/^static void do_vanish(TTSOCK *sock, TASKARG *arg, TTREQ *req){$/;"	f	file:
+do_vsiz	ttserver.c	/^static void do_vsiz(TTSOCK *sock, TASKARG *arg, TTREQ *req){$/;"	f	file:
+echo	ext/senatus.lua	/^function echo(key, value)$/;"	f
+eckey	tcrdb.h	/^  pthread_key_t eckey;                   \/* key for thread specific error code *\/$/;"	m	struct:__anon1
+end	ttutil.h	/^  bool end;                              \/* end flag *\/$/;"	m	struct:__anon28
+enqueue	ext/queue.lua	/^function enqueue(key, value)$/;"	f
+ep	ttutil.h	/^  char *ep;                              \/* end pointer *\/$/;"	m	struct:__anon28
+epfd	ttutil.h	/^  int epfd;                              \/* polling file descriptor *\/$/;"	m	struct:_TTREQ
+epoll_close	myconf.h	305;"	d
+epoll_close	myconf.h	310;"	d
+epoll_create	myconf.h	301;"	d
+epoll_ctl	myconf.h	302;"	d
+epoll_event	myconf.h	/^struct epoll_event {$/;"	s
+epoll_reassoc	myconf.h	303;"	d
+epoll_reassoc	myconf.h	309;"	d
+epoll_wait	myconf.h	304;"	d
+eprint	tcrmttest.c	/^static void eprint(TCRDB *rdb, int line, const char *func){$/;"	f	file:
+eprint	tcrtest.c	/^static void eprint(TCRDB *rdb, int line, const char *func){$/;"	f	file:
+eprint	ttultest.c	/^static void eprint(TCULOG *ulog, const char *func){$/;"	f	file:
+err	ttserver.c	/^  bool err;                              \/\/ error flag$/;"	m	struct:__anon34	file:
+eval	ext/senatus.lua	/^function eval(key, value)$/;"	f
+events	myconf.h	/^  uint32_t events;$/;"	m	struct:epoll_event
+exec_prefix	Makefile	/^exec_prefix = ${prefix}$/;"	m
+expire	ext/senatus.lua	/^function expire()$/;"	f
+expire2	ext/senatus.lua	/^function expire2()$/;"	f
+expr	tcrdb.h	/^  char *expr;                            \/* simple server expression *\/$/;"	m	struct:__anon1
+ext	tcrmttest.c	/^  const char *ext;$/;"	m	struct:__anon15	file:
+fail	ttserver.c	/^  bool fail;                             \/\/ failure flag$/;"	m	struct:__anon31	file:
+fatal	ttserver.c	/^  bool fatal;                            \/\/ fatal error flag$/;"	m	struct:__anon31	file:
+fd	myconf.h	/^    int fd;$/;"	m	union:epoll_event::__anon20
+fd	tcrdb.h	/^  int fd;                                \/* file descriptor *\/$/;"	m	struct:__anon1
+fd	tculog.h	/^  int fd;                                \/* current file descriptor *\/$/;"	m	struct:__anon25
+fd	tculog.h	/^  int fd;                                \/* current file descriptor *\/$/;"	m	struct:__anon26
+fd	tculog.h	/^  int fd;                                \/* file descriptor *\/$/;"	m	struct:__anon27
+fd	ttserver.c	/^  int fd;$/;"	m	struct:__anon30	file:
+fd	ttutil.h	/^  int fd;                                \/* file descriptor *\/$/;"	m	struct:__anon28
+fibnext	lab/fibonacci.lua	/^function fibnext(key, value)$/;"	f
+fibonacci	lab/fibonacci.lua	/^function fibonacci(key, value)$/;"	f
+find	ext/senatus.lua	/^function find(key, value)$/;"	f
+finddist	ext/senatus.lua	/^function finddist(key, value)$/;"	f
+freq_timed	ttutil.h	/^  double freq_timed;                     \/* frequency of timed handler *\/$/;"	m	struct:_TTTIMER
+fwmkeys	ext/senatus.lua	/^function fwmkeys(key, value)$/;"	f
+g_loglevel	ttserver.c	/^int g_loglevel = TTLOGINFO;              \/\/ whether to log debug information$/;"	v
+g_progname	tcrmgr.c	/^const char *g_progname;                  \/\/ program name$/;"	v
+g_progname	tcrmttest.c	/^const char *g_progname;                  \/\/ program name$/;"	v
+g_progname	tcrtest.c	/^const char *g_progname;                  \/\/ program name$/;"	v
+g_progname	ttserver.c	/^const char *g_progname = NULL;           \/\/ program name$/;"	v
+g_progname	ttulmgr.c	/^const char *g_progname;                  \/\/ program name$/;"	v
+g_progname	ttultest.c	/^const char *g_progname;                  \/\/ program name$/;"	v
+g_restart	ttserver.c	/^bool g_restart = false;                  \/\/ restart flag$/;"	v
+g_serv	ttserver.c	/^TTSERV *g_serv = NULL;                   \/\/ server object$/;"	v
+g_starttime	ttserver.c	/^double g_starttime = 0.0;                \/\/ start time$/;"	v
+get	ext/senatus.lua	/^function get(key, value)$/;"	f
+getcmdmask	ttserver.c	/^static uint64_t getcmdmask(const char *expr){$/;"	f	file:
+glob	ext/senatus.lua	/^function glob(key, value)$/;"	f
+hash	ext/senatus.lua	/^function hash(key, value)$/;"	f
+high	lab/highlow.lua	/^function high(key, value)$/;"	f
+hint	tcrdb.h	/^  TCXSTR *hint;                          \/* hint string *\/$/;"	m	struct:__anon8
+host	tcrdb.h	/^  char *host;                            \/* host name *\/$/;"	m	struct:__anon1
+host	ttserver.c	/^  char host[TTADDRBUFSIZ];               \/\/ host name$/;"	m	struct:__anon31	file:
+host	ttutil.h	/^  char host[TTADDRBUFSIZ];               \/* host name *\/$/;"	m	struct:_TTSERV
+hup	ttservctl	/^hup(){$/;"	f
+id	tcrmttest.c	/^  int id;$/;"	m	struct:__anon15	file:
+id	tcrmttest.c	/^  int id;$/;"	m	struct:__anon16	file:
+id	tcrmttest.c	/^  int id;$/;"	m	struct:__anon17	file:
+id	tcrmttest.c	/^  int id;$/;"	m	struct:__anon18	file:
+id	tcrmttest.c	/^  int id;$/;"	m	struct:__anon19	file:
+id	ttulmgr.c	/^  int id;$/;"	m	struct:__anon24	file:
+id	ttultest.c	/^  int id;$/;"	m	struct:__anon14	file:
+idx	ttutil.h	/^  int idx;                               \/* ordinal index *\/$/;"	m	struct:_TTREQ
+incr	ext/senatus.lua	/^function incr(key, value)$/;"	f
+incrdouble	ext/senatus.lua	/^function incrdouble(key, value)$/;"	f
+incrint32	ext/senatus.lua	/^function incrint32(key, value)$/;"	f
+incrint64	ext/senatus.lua	/^function incrint64(key, value)$/;"	f
+initialize	ttskeldir.c	/^bool initialize(ADBSKEL *skel){$/;"	f
+initialize	ttskelmock.c	/^bool initialize(ADBSKEL *skel){$/;"	f
+initialize	ttskelnull.c	/^bool initialize(ADBSKEL *skel){$/;"	f
+initialize	ttskelproxy.c	/^bool initialize(ADBSKEL *skel){$/;"	f
+iprintf	tcrmttest.c	/^static void iprintf(const char *format, ...){$/;"	f	file:
+iprintf	tcrtest.c	/^static void iprintf(const char *format, ...){$/;"	f	file:
+iprintf	ttultest.c	/^static void iprintf(const char *format, ...){$/;"	f	file:
+iputchar	tcrtest.c	/^static void iputchar(int c){$/;"	f	file:
+iterinit	ext/senatus.lua	/^function iterinit(key, value)$/;"	f
+iternext	ext/senatus.lua	/^function iternext(key, value)$/;"	f
+iterrec	scrext.c	/^static bool iterrec(const void *kbuf, int ksiz, const void *vbuf, int vsiz, lua_State *lua){$/;"	f	file:
+keep	ttutil.h	/^  bool keep;                             \/* keep-alive flag *\/$/;"	m	struct:_TTREQ
+lcknum	scrext.c	/^  int lcknum;                            \/\/ number of user locks$/;"	m	struct:__anon13	file:
+lcks	scrext.c	/^  pthread_mutex_t *lcks;                 \/\/ mutex for user locks$/;"	m	struct:__anon13	file:
+limsiz	tculog.h	/^  uint64_t limsiz;                       \/* limit size *\/$/;"	m	struct:__anon25
+list	lab/footprint.lua	/^function list(key, value)$/;"	f
+lock	ext/senatus.lua	/^function lock(key, value)$/;"	f
+lock	scrext.c	/^  TCMDB *lock;                           \/\/ global lock object$/;"	m	struct:_SCREXT	file:
+lock	scrext.c	/^  TCMDB *lock;                           \/\/ global lock object$/;"	m	struct:__anon13	file:
+log	ext/senatus.lua	/^function log(key, value)$/;"	f
+logger	scrext.c	/^  void (*logger)(int, const char *, void *);  \/\/ logging function$/;"	m	struct:_SCREXT	file:
+logger	scrext.c	/^  void (*logger)(int, const char *, void *);  \/\/ logging function$/;"	m	struct:__anon13	file:
+logopq	scrext.c	/^  void *logopq;                          \/\/ opaque pointer for the logging function$/;"	m	struct:_SCREXT	file:
+logopq	scrext.c	/^  void *logopq;                          \/\/ opaque pointer for the logging function$/;"	m	struct:__anon13	file:
+logtime	ext/senatus.lua	/^function logtime(key, value)$/;"	f
+low	lab/highlow.lua	/^function low(key, value)$/;"	f
+lua	scrext.c	/^  lua_State *lua;                        \/\/ Lua environment$/;"	m	struct:__anon12	file:
+main	example/tcrdbex.c	/^int main(int argc, char **argv){$/;"	f
+main	example/tcrdbtblex.c	/^int main(int argc, char **argv){$/;"	f
+main	tcrmgr.c	/^int main(int argc, char **argv){$/;"	f
+main	tcrmttest.c	/^int main(int argc, char **argv){$/;"	f
+main	tcrtest.c	/^int main(int argc, char **argv){$/;"	f
+main	ttserver.c	/^int main(int argc, char **argv){$/;"	f
+main	ttulmgr.c	/^int main(int argc, char **argv){$/;"	f
+main	ttultest.c	/^int main(int argc, char **argv){$/;"	f
+makepath	ttskeldir.c	/^static char *makepath(TCDDB *ddb, const void *kbuf, int ksiz){$/;"	f	file:
+mapper	ext/mapreduce.lua	/^   function mapper(key, value, mapemit)$/;"	f
+maprec	scrext.c	/^static bool maprec(void *map, const void *kbuf, int ksiz, const void *vbuf, int vsiz,$/;"	f	file:
+mask	ttserver.c	/^  uint64_t mask;                         \/\/ bit mask of commands$/;"	m	struct:__anon33	file:
+max	tculog.h	/^  int max;                               \/* number of maximum ID *\/$/;"	m	struct:__anon25
+mid	tculog.h	/^  uint16_t mid;                          \/* master server ID number *\/$/;"	m	struct:__anon27
+misc	ext/senatus.lua	/^function misc(key, value)$/;"	f
+mkdir	ext/senatus.lua	/^function mkdir(key, value)$/;"	f
+mmtx	tcrdb.h	/^  pthread_mutex_t mmtx;                  \/* mutex for method *\/$/;"	m	struct:__anon1
+mtime	ttutil.h	/^  double mtime;                          \/* last modified time *\/$/;"	m	struct:_TTREQ
+mts	ttserver.c	/^  uint64_t mts;                          \/\/ modified time stamp$/;"	m	struct:__anon31	file:
+mul	tcrmttest.c	/^  int mul;$/;"	m	struct:__anon16	file:
+myclose	ttskelnull.c	/^static bool myclose(void *opq){$/;"	f	file:
+mygetline	tcrmgr.c	/^static char *mygetline(FILE *ifp){$/;"	f	file:
+mygetline	ttulmgr.c	/^static char *mygetline(FILE *ifp){$/;"	f	file:
+mymisc	ttskelnull.c	/^static TCLIST *mymisc(void *opq, const char *name, const TCLIST *args){$/;"	f	file:
+mymisc	ttskelproxy.c	/^static TCLIST *mymisc(TCRDB *rdb, const char *name, const TCLIST *args){$/;"	f	file:
+myopen	tcrmgr.c	/^static bool myopen(TCRDB *rdb, const char *host, int port){$/;"	f	file:
+myopen	tcrmttest.c	/^static bool myopen(TCRDB *rdb, const char *host, int port){$/;"	f	file:
+myopen	tcrtest.c	/^static bool myopen(TCRDB *rdb, const char *host, int port){$/;"	f	file:
+myopen	ttskelnull.c	/^static bool myopen(void *opq, const char *name){$/;"	f	file:
+myout	ttskelnull.c	/^static bool myout(void *opq, const void *kbuf, int ksiz){$/;"	f	file:
+myput	ttskelnull.c	/^static bool myput(void *opq, const void *kbuf, int ksiz, const void *vbuf, int vsiz){$/;"	f	file:
+myrand	tcrmttest.c	/^static int myrand(int range){$/;"	f	file:
+myrand	tcrtest.c	/^static int myrand(int range){$/;"	f	file:
+myrandnd	tcrmttest.c	/^static int myrandnd(int range){$/;"	f	file:
+mysetmst	tcrmgr.c	/^static bool mysetmst(TCRDB *rdb, const char *host, int port, uint64_t ts, int opts){$/;"	f	file:
+name	ttserver.c	/^  const char *name;                      \/\/ function name$/;"	m	struct:__anon32	file:
+name	ttskeldir.c	/^  char *name;                            \/* name of the directory *\/$/;"	m	struct:__anon23	file:
+nan	myconf.h	247;"	d
+nr	tcrmttest.c	/^  bool nr;$/;"	m	struct:__anon15	file:
+num	tculog.h	/^  int num;                               \/* number of current ID *\/$/;"	m	struct:__anon26
+opq_log	ttutil.h	/^  void *opq_log;                         \/* opaque pointer for logging *\/$/;"	m	struct:_TTSERV
+opq_task	ttutil.h	/^  void *opq_task;                        \/* opaque pointer for task *\/$/;"	m	struct:_TTSERV
+opq_term	ttutil.h	/^  void *opq_term;                        \/* opaque pointer for termination *\/$/;"	m	struct:_TTSERV
+opq_timed	ttutil.h	/^  void *opq_timed;                       \/* opaque pointer for timed handler *\/$/;"	m	struct:_TTTIMER
+opts	tcrdb.h	/^  int opts;                              \/* options *\/$/;"	m	struct:__anon1
+opts	ttserver.c	/^  int opts;                              \/\/ options$/;"	m	struct:__anon31	file:
+out	ext/senatus.lua	/^function out(key, value)$/;"	f
+out	ext/usherette.lua	/^function out(id, text)$/;"	f
+over	lab/highlow.lua	/^function over(key, value)$/;"	f
+path	scrext.c	/^  char *path;                            \/\/ path of the initializing script$/;"	m	struct:_SCREXT	file:
+pcargs	ttserver.c	/^  EXTPCARG *pcargs;                      \/\/ periodic opaque objects$/;"	m	struct:__anon34	file:
+pcnum	ttserver.c	/^  int pcnum;                             \/\/ number of periodic opaque objects$/;"	m	struct:__anon34	file:
+port	tcrdb.h	/^  int port;                              \/* port number *\/$/;"	m	struct:__anon1
+port	ttserver.c	/^  int port;                              \/\/ port number$/;"	m	struct:__anon31	file:
+port	ttutil.h	/^  uint16_t port;                         \/* port number *\/$/;"	m	struct:_TTSERV
+prefix	Makefile	/^prefix = \/usr\/local$/;"	m
+printdata	tcrmgr.c	/^static int printdata(const char *ptr, int size, bool px, int sep){$/;"	f	file:
+printerr	tcrmgr.c	/^static void printerr(TCRDB *rdb){$/;"	f	file:
+printerr	ttulmgr.c	/^static void printerr(const char *msg){$/;"	f	file:
+printhex	ttulmgr.c	/^static int printhex(const char *ptr, int size){$/;"	f	file:
+proc	ext/senatus.lua	/^   function proc(tkey, tvalue)$/;"	f
+proc	ext/usherette.lua	/^   function proc(tword, hnum)$/;"	f
+proc	ext/usherette.lua	/^   function proc(word, idsel)$/;"	f
+proc	ttserver.c	/^static int proc(const char *dbname, const char *host, int port, int thnum, int tout,$/;"	f	file:
+proccopy	tcrmgr.c	/^static int proccopy(const char *host, int port, const char *dpath){$/;"	f	file:
+procexport	ttulmgr.c	/^static int procexport(const char *upath, uint64_t ts, uint32_t sid){$/;"	f	file:
+procext	tcrmgr.c	/^static int procext(const char *host, int port, const char *name, int opts,$/;"	f	file:
+procget	tcrmgr.c	/^static int procget(const char *host, int port, const char *kbuf, int ksiz, int sep,$/;"	f	file:
+prochttp	tcrmgr.c	/^static int prochttp(const char *url, TCMAP *hmap, bool ih){$/;"	f	file:
+procimport	ttulmgr.c	/^static int procimport(const char *upath, uint64_t lim){$/;"	f	file:
+procimporttsv	tcrmgr.c	/^static int procimporttsv(const char *host, int port, const char *file, bool nr, bool sc){$/;"	f	file:
+procinform	tcrmgr.c	/^static int procinform(const char *host, int port, bool st){$/;"	f	file:
+proclist	tcrmgr.c	/^static int proclist(const char *host, int port, int sep, int max, bool pv, bool px,$/;"	f	file:
+procmget	tcrmgr.c	/^static int procmget(const char *host, int port, const TCLIST *keys, int sep, bool px){$/;"	f	file:
+procmisc	tcrmgr.c	/^static int procmisc(const char *host, int port, const char *func, int opts,$/;"	f	file:
+procmisc	tcrtest.c	/^static int procmisc(const char *host, int port, int cnum, int tout, int rnum){$/;"	f	file:
+procoptimize	tcrmgr.c	/^static int procoptimize(const char *host, int port, const char *param){$/;"	f	file:
+procout	tcrmgr.c	/^static int procout(const char *host, int port, const char *kbuf, int ksiz){$/;"	f	file:
+procput	tcrmgr.c	/^static int procput(const char *host, int port, const char *kbuf, int ksiz,$/;"	f	file:
+procrcat	tcrtest.c	/^static int procrcat(const char *host, int port, int cnum, int tout, int rnum,$/;"	f	file:
+procread	tcrmttest.c	/^static int procread(const char *host, int port, int tnum, int mul, bool rnd){$/;"	f	file:
+procread	tcrtest.c	/^static int procread(const char *host, int port, int cnum, int tout, int mul, bool rnd){$/;"	f	file:
+procread	ttultest.c	/^static int procread(const char *base, uint64_t ts, bool pm){$/;"	f	file:
+procremove	tcrmttest.c	/^static int procremove(const char *host, int port, int tnum, bool rnd){$/;"	f	file:
+procremove	tcrtest.c	/^static int procremove(const char *host, int port, int cnum, int tout, bool rnd){$/;"	f	file:
+procrepl	tcrmgr.c	/^static int procrepl(const char *host, int port, uint64_t ts, uint32_t sid, bool ph){$/;"	f	file:
+procrestore	tcrmgr.c	/^static int procrestore(const char *host, int port, const char *upath, uint64_t ts, int opts){$/;"	f	file:
+procsetmst	tcrmgr.c	/^static int procsetmst(const char *host, int port, const char *mhost, int mport,$/;"	f	file:
+procsync	tcrmgr.c	/^static int procsync(const char *host, int port){$/;"	f	file:
+proctable	tcrmttest.c	/^static int proctable(const char *host, int port, int tnum, int rnum, bool rnd){$/;"	f	file:
+proctable	tcrtest.c	/^static int proctable(const char *host, int port, int cnum, int tout, int rnum, int exp){$/;"	f	file:
+procthread	ttultest.c	/^static int procthread(const char *base, int tnum, int rnum, int64_t limsiz, bool as){$/;"	f	file:
+proctypical	tcrmttest.c	/^static int proctypical(const char *host, int port, int tnum, int rnum){$/;"	f	file:
+procvanish	tcrmgr.c	/^static int procvanish(const char *host, int port){$/;"	f	file:
+procversion	tcrmgr.c	/^static int procversion(void){$/;"	f	file:
+procwicked	tcrtest.c	/^static int procwicked(const char *host, int port, int cnum, int tout, int rnum){$/;"	f	file:
+procwrite	tcrmttest.c	/^static int procwrite(const char *host, int port, int tnum, int rnum,$/;"	f	file:
+procwrite	tcrtest.c	/^static int procwrite(const char *host, int port, int cnum, int tout,$/;"	f	file:
+procwrite	ttultest.c	/^static int procwrite(const char *base, int rnum, int64_t limsiz, bool as){$/;"	f	file:
+prototypes	configure	/^   function prototypes and stuff, but not '\\xHH' hex character constants.$/;"	f
+ptr	myconf.h	/^    void *ptr;$/;"	m	union:epoll_event::__anon20
+put	ext/senatus.lua	/^function put(key, value)$/;"	f
+put	ext/usherette.lua	/^function put(id, text)$/;"	f
+putcat	ext/senatus.lua	/^function putcat(key, value)$/;"	f
+putkeep	ext/senatus.lua	/^function putkeep(key, value)$/;"	f
+qcnd	ttutil.h	/^  pthread_cond_t qcnd;                   \/* condition variable for the queue *\/$/;"	m	struct:_TTSERV
+qmtx	ttutil.h	/^  pthread_mutex_t qmtx;                  \/* mutex for the queue *\/$/;"	m	struct:_TTSERV
+queue	ttutil.h	/^  TCLIST *queue;                         \/* queue of requests *\/$/;"	m	struct:_TTSERV
+queuesize	ext/queue.lua	/^function queuesize(key)$/;"	f
+rbuf	tculog.h	/^  char *rbuf;                            \/* record buffer *\/$/;"	m	struct:__anon26
+rbuf	tculog.h	/^  char *rbuf;                            \/* record buffer *\/$/;"	m	struct:__anon27
+rdb	tcrdb.h	/^  TCRDB *rdb;                            \/* database object *\/$/;"	m	struct:__anon8
+rdb	tcrmttest.c	/^  TCRDB *rdb;$/;"	m	struct:__anon15	file:
+rdb	tcrmttest.c	/^  TCRDB *rdb;$/;"	m	struct:__anon16	file:
+rdb	tcrmttest.c	/^  TCRDB *rdb;$/;"	m	struct:__anon17	file:
+rdb	tcrmttest.c	/^  TCRDB *rdb;$/;"	m	struct:__anon18	file:
+rdb	tcrmttest.c	/^  TCRDB *rdb;$/;"	m	struct:__anon19	file:
+reccmp	ext/usherette.lua	/^   function reccmp(a, b)$/;"	f
+recmtxidx	ttserver.c	/^static uint32_t recmtxidx(const char *kbuf, int ksiz){$/;"	f	file:
+recon	ttserver.c	/^  bool recon;                            \/\/ re-connect flag$/;"	m	struct:__anon31	file:
+reducer	ext/mapreduce.lua	/^   function reducer(key, values)$/;"	f
+regex	ext/senatus.lua	/^function regex(key, value)$/;"	f
+remove	ext/senatus.lua	/^function remove(key, value)$/;"	f
+replace	ext/usherette.lua	/^function replace(id, befaft)$/;"	f
+reporterror	scrext.c	/^static void reporterror(lua_State *lua){$/;"	f	file:
+rmtxs	tculog.h	/^  pthread_mutex_t rmtxs[TCULRMTXNUM];    \/* mutex for records *\/$/;"	m	struct:__anon25
+rmtxs	ttserver.c	/^  pthread_mutex_t rmtxs[RECMTXNUM];      \/\/ mutex for records$/;"	m	struct:__anon33	file:
+rnd	tcrmttest.c	/^  bool rnd;$/;"	m	struct:__anon15	file:
+rnd	tcrmttest.c	/^  bool rnd;$/;"	m	struct:__anon16	file:
+rnd	tcrmttest.c	/^  bool rnd;$/;"	m	struct:__anon17	file:
+rnd	tcrmttest.c	/^  bool rnd;$/;"	m	struct:__anon19	file:
+rnum	ext/senatus.lua	/^function rnum(key, value)$/;"	f
+rnum	tcrmttest.c	/^  int rnum;$/;"	m	struct:__anon15	file:
+rnum	tcrmttest.c	/^  int rnum;$/;"	m	struct:__anon16	file:
+rnum	tcrmttest.c	/^  int rnum;$/;"	m	struct:__anon17	file:
+rnum	tcrmttest.c	/^  int rnum;$/;"	m	struct:__anon18	file:
+rnum	tcrmttest.c	/^  int rnum;$/;"	m	struct:__anon19	file:
+rnum	ttulmgr.c	/^  int rnum;$/;"	m	struct:__anon24	file:
+rnum	ttultest.c	/^  int rnum;$/;"	m	struct:__anon14	file:
+rp	ttutil.h	/^  char *rp;                              \/* reading pointer *\/$/;"	m	struct:__anon28
+rsiz	tculog.h	/^  int rsiz;                              \/* size of the record buffer *\/$/;"	m	struct:__anon26
+rsiz	tculog.h	/^  int rsiz;                              \/* size of the record buffer *\/$/;"	m	struct:__anon27
+rts	ttserver.c	/^  uint64_t rts;                          \/\/ replication time stamp$/;"	m	struct:__anon31	file:
+rtspath	ttserver.c	/^  const char *rtspath;                   \/\/ path of the replication time stamp file$/;"	m	struct:__anon31	file:
+runcopy	tcrmgr.c	/^static int runcopy(int argc, char **argv){$/;"	f	file:
+runexport	ttulmgr.c	/^static int runexport(int argc, char **argv){$/;"	f	file:
+runext	tcrmgr.c	/^static int runext(int argc, char **argv){$/;"	f	file:
+runget	tcrmgr.c	/^static int runget(int argc, char **argv){$/;"	f	file:
+runhttp	tcrmgr.c	/^static int runhttp(int argc, char **argv){$/;"	f	file:
+runimport	ttulmgr.c	/^static int runimport(int argc, char **argv){$/;"	f	file:
+runimporttsv	tcrmgr.c	/^static int runimporttsv(int argc, char **argv){$/;"	f	file:
+runinform	tcrmgr.c	/^static int runinform(int argc, char **argv){$/;"	f	file:
+runlist	tcrmgr.c	/^static int runlist(int argc, char **argv){$/;"	f	file:
+runmget	tcrmgr.c	/^static int runmget(int argc, char **argv){$/;"	f	file:
+runmisc	tcrmgr.c	/^static int runmisc(int argc, char **argv){$/;"	f	file:
+runmisc	tcrtest.c	/^static int runmisc(int argc, char **argv){$/;"	f	file:
+runoptimize	tcrmgr.c	/^static int runoptimize(int argc, char **argv){$/;"	f	file:
+runout	tcrmgr.c	/^static int runout(int argc, char **argv){$/;"	f	file:
+runput	tcrmgr.c	/^static int runput(int argc, char **argv){$/;"	f	file:
+runrcat	tcrtest.c	/^static int runrcat(int argc, char **argv){$/;"	f	file:
+runread	tcrmttest.c	/^static int runread(int argc, char **argv){$/;"	f	file:
+runread	tcrtest.c	/^static int runread(int argc, char **argv){$/;"	f	file:
+runread	ttultest.c	/^static int runread(int argc, char **argv){$/;"	f	file:
+runremove	tcrmttest.c	/^static int runremove(int argc, char **argv){$/;"	f	file:
+runremove	tcrtest.c	/^static int runremove(int argc, char **argv){$/;"	f	file:
+runrepl	tcrmgr.c	/^static int runrepl(int argc, char **argv){$/;"	f	file:
+runrestore	tcrmgr.c	/^static int runrestore(int argc, char **argv){$/;"	f	file:
+runsetmst	tcrmgr.c	/^static int runsetmst(int argc, char **argv){$/;"	f	file:
+runsync	tcrmgr.c	/^static int runsync(int argc, char **argv){$/;"	f	file:
+runtable	tcrmttest.c	/^static int runtable(int argc, char **argv){$/;"	f	file:
+runtable	tcrtest.c	/^static int runtable(int argc, char **argv){$/;"	f	file:
+runthread	ttultest.c	/^static int runthread(int argc, char **argv){$/;"	f	file:
+runtypical	tcrmttest.c	/^static int runtypical(int argc, char **argv){$/;"	f	file:
+runvanish	tcrmgr.c	/^static int runvanish(int argc, char **argv){$/;"	f	file:
+runversion	tcrmgr.c	/^static int runversion(int argc, char **argv){$/;"	f	file:
+runwicked	tcrtest.c	/^static int runwicked(int argc, char **argv){$/;"	f	file:
+runwrite	tcrmttest.c	/^static int runwrite(int argc, char **argv){$/;"	f	file:
+runwrite	tcrtest.c	/^static int runwrite(int argc, char **argv){$/;"	f	file:
+runwrite	ttultest.c	/^static int runwrite(int argc, char **argv){$/;"	f	file:
+rwlck	tculog.h	/^  pthread_rwlock_t rwlck;                \/* mutex for operation *\/$/;"	m	struct:__anon25
+sarg	ttserver.c	/^  REPLARG *sarg;                         \/\/ replication object$/;"	m	struct:__anon32	file:
+sarg	ttserver.c	/^  REPLARG *sarg;                         \/\/ replication object$/;"	m	struct:__anon33	file:
+sarg	ttserver.c	/^  REPLARG *sarg;                         \/\/ replication object$/;"	m	struct:__anon34	file:
+scrext	ttserver.c	/^  void *scrext;                          \/\/ script extension object$/;"	m	struct:__anon32	file:
+scrextcallmethod	scrext.c	/^char *scrextcallmethod(void *scr, const char *name,$/;"	f
+scrextdel	scrext.c	/^bool scrextdel(void *scr){$/;"	f
+scrextkill	scrext.c	/^bool scrextkill(void *scr){$/;"	f
+scrextnew	scrext.c	/^void *scrextnew(void **screxts, int thnum, int thid, const char *path,$/;"	f
+screxts	scrext.c	/^  SCREXT **screxts;                      \/\/ script extension objects$/;"	m	struct:__anon13	file:
+screxts	scrext.c	/^  struct _SCREXT **screxts;              \/\/ script extension objects$/;"	m	struct:_SCREXT	typeref:struct:_SCREXT::_SCREXT	file:
+screxts	ttserver.c	/^  void **screxts;                        \/\/ script extension objects$/;"	m	struct:__anon33	file:
+screxts	ttserver.c	/^  void **screxts;                        \/\/ script extension objects$/;"	m	struct:__anon34	file:
+search	ext/usherette.lua	/^function search(phrase, max)$/;"	f
+sepstrtochr	tcrmgr.c	/^static int sepstrtochr(const char *str){$/;"	f	file:
+serv	ttutil.h	/^  struct _TTSERV *serv;                  \/* server object *\/$/;"	m	struct:_TTREQ	typeref:struct:_TTREQ::_TTSERV
+serv	ttutil.h	/^  struct _TTSERV *serv;                  \/* server object *\/$/;"	m	struct:_TTTIMER	typeref:struct:_TTTIMER::_TTSERV
+serv_adddouble	scrext.c	/^static int serv_adddouble(lua_State *lua){$/;"	f	file:
+serv_addint	scrext.c	/^static int serv_addint(lua_State *lua){$/;"	f	file:
+serv_bit	scrext.c	/^static int serv_bit(lua_State *lua){$/;"	f	file:
+serv_codec	scrext.c	/^static int serv_codec(lua_State *lua){$/;"	f	file:
+serv_dist	scrext.c	/^static int serv_dist(lua_State *lua){$/;"	f	file:
+serv_eval	scrext.c	/^static int serv_eval(lua_State *lua){$/;"	f	file:
+serv_foreach	scrext.c	/^static int serv_foreach(lua_State *lua){$/;"	f	file:
+serv_fwmkeys	scrext.c	/^static int serv_fwmkeys(lua_State *lua){$/;"	f	file:
+serv_get	scrext.c	/^static int serv_get(lua_State *lua){$/;"	f	file:
+serv_glob	scrext.c	/^static int serv_glob(lua_State *lua){$/;"	f	file:
+serv_hash	scrext.c	/^static int serv_hash(lua_State *lua){$/;"	f	file:
+serv_isect	scrext.c	/^static int serv_isect(lua_State *lua){$/;"	f	file:
+serv_iterinit	scrext.c	/^static int serv_iterinit(lua_State *lua){$/;"	f	file:
+serv_iternext	scrext.c	/^static int serv_iternext(lua_State *lua){$/;"	f	file:
+serv_lock	scrext.c	/^static int serv_lock(lua_State *lua){$/;"	f	file:
+serv_log	scrext.c	/^static int serv_log(lua_State *lua){$/;"	f	file:
+serv_mapreduce	scrext.c	/^static int serv_mapreduce(lua_State *lua){$/;"	f	file:
+serv_mapreducemapemit	scrext.c	/^static int serv_mapreducemapemit(lua_State *lua){$/;"	f	file:
+serv_misc	scrext.c	/^static int serv_misc(lua_State *lua){$/;"	f	file:
+serv_mkdir	scrext.c	/^static int serv_mkdir(lua_State *lua){$/;"	f	file:
+serv_out	scrext.c	/^static int serv_out(lua_State *lua){$/;"	f	file:
+serv_pack	scrext.c	/^static int serv_pack(lua_State *lua){$/;"	f	file:
+serv_put	scrext.c	/^static int serv_put(lua_State *lua){$/;"	f	file:
+serv_putcat	scrext.c	/^static int serv_putcat(lua_State *lua){$/;"	f	file:
+serv_putkeep	scrext.c	/^static int serv_putkeep(lua_State *lua){$/;"	f	file:
+serv_regex	scrext.c	/^static int serv_regex(lua_State *lua){$/;"	f	file:
+serv_remove	scrext.c	/^static int serv_remove(lua_State *lua){$/;"	f	file:
+serv_rnum	scrext.c	/^static int serv_rnum(lua_State *lua){$/;"	f	file:
+serv_size	scrext.c	/^static int serv_size(lua_State *lua){$/;"	f	file:
+serv_sleep	scrext.c	/^static int serv_sleep(lua_State *lua){$/;"	f	file:
+serv_split	scrext.c	/^static int serv_split(lua_State *lua){$/;"	f	file:
+serv_stashforeach	scrext.c	/^static int serv_stashforeach(lua_State *lua){$/;"	f	file:
+serv_stashget	scrext.c	/^static int serv_stashget(lua_State *lua){$/;"	f	file:
+serv_stashout	scrext.c	/^static int serv_stashout(lua_State *lua){$/;"	f	file:
+serv_stashput	scrext.c	/^static int serv_stashput(lua_State *lua){$/;"	f	file:
+serv_stashputcat	scrext.c	/^static int serv_stashputcat(lua_State *lua){$/;"	f	file:
+serv_stashputkeep	scrext.c	/^static int serv_stashputkeep(lua_State *lua){$/;"	f	file:
+serv_stashvanish	scrext.c	/^static int serv_stashvanish(lua_State *lua){$/;"	f	file:
+serv_stat	scrext.c	/^static int serv_stat(lua_State *lua){$/;"	f	file:
+serv_time	scrext.c	/^static int serv_time(lua_State *lua){$/;"	f	file:
+serv_ucs	scrext.c	/^static int serv_ucs(lua_State *lua){$/;"	f	file:
+serv_union	scrext.c	/^static int serv_union(lua_State *lua){$/;"	f	file:
+serv_unlock	scrext.c	/^static int serv_unlock(lua_State *lua){$/;"	f	file:
+serv_unpack	scrext.c	/^static int serv_unpack(lua_State *lua){$/;"	f	file:
+serv_vanish	scrext.c	/^static int serv_vanish(lua_State *lua){$/;"	f	file:
+serv_vsiz	scrext.c	/^static int serv_vsiz(lua_State *lua){$/;"	f	file:
+sid	scrext.c	/^  uint32_t sid;                          \/\/ server ID$/;"	m	struct:_SCREXT	file:
+sid	scrext.c	/^  uint32_t sid;                          \/\/ server ID$/;"	m	struct:__anon13	file:
+sid	ttserver.c	/^  uint32_t sid;                          \/\/ server ID number$/;"	m	struct:__anon31	file:
+sid	ttserver.c	/^  uint32_t sid;                          \/\/ server ID number$/;"	m	struct:__anon32	file:
+sid	ttserver.c	/^  uint32_t sid;                          \/\/ server ID number$/;"	m	struct:__anon33	file:
+sigchldhandler	ttserver.c	/^static void sigchldhandler(int signum){$/;"	f	file:
+sigtermhandler	ttserver.c	/^static void sigtermhandler(int signum){$/;"	f	file:
+size	ext/senatus.lua	/^function size(key, value)$/;"	f
+size	tculog.h	/^  uint64_t size;                         \/* current size *\/$/;"	m	struct:__anon25
+sizeof	myconf.h	244;"	d
+sleep	ext/senatus.lua	/^function sleep(key, value)$/;"	f
+sock	tcrdb.h	/^  TTSOCK *sock;                          \/* socket object *\/$/;"	m	struct:__anon1
+sock	tculog.h	/^  TTSOCK *sock;                          \/* socket object *\/$/;"	m	struct:__anon27
+split	ext/senatus.lua	/^function split(key, value)$/;"	f
+start	lab/highlow.lua	/^function start(key, value)$/;"	f
+start	ttservctl	/^start(){$/;"	f
+stash	scrext.c	/^  TCMDB *stash;                          \/\/ global stash object$/;"	m	struct:_SCREXT	file:
+stash	scrext.c	/^  TCMDB *stash;                          \/\/ global stash object$/;"	m	struct:__anon13	file:
+stashget	ext/senatus.lua	/^function stashget(key, value)$/;"	f
+stashlist	ext/senatus.lua	/^function stashlist(key, value)$/;"	f
+stashlist	ext/usherette.lua	/^function stashlist(word, max)$/;"	f
+stashmake	ext/usherette.lua	/^function stashmake(minhit)$/;"	f
+stashout	ext/senatus.lua	/^function stashout(key, value)$/;"	f
+stashput	ext/senatus.lua	/^function stashput(key, value)$/;"	f
+stat	ext/senatus.lua	/^function stat(key, value)$/;"	f
+statfile	ext/senatus.lua	/^function statfile(key, value)$/;"	f
+stop	ttservctl	/^stop(){$/;"	f
+strip	man/htmltoman	/^function strip(text){$/;"	f
+strtozsv	tcrmgr.c	/^static char *strtozsv(const char *str, int sep, int *sp){$/;"	f	file:
+tcddbclose	ttskeldir.c	/^static bool tcddbclose(TCDDB *ddb){$/;"	f	file:
+tcddbdel	ttskeldir.c	/^static void tcddbdel(TCDDB *ddb){$/;"	f	file:
+tcddbget	ttskeldir.c	/^static void *tcddbget(TCDDB *ddb, const void *kbuf, int ksiz, int *sp){$/;"	f	file:
+tcddbnew	ttskeldir.c	/^static TCDDB *tcddbnew(void){$/;"	f	file:
+tcddbopen	ttskeldir.c	/^static bool tcddbopen(TCDDB *ddb, const char *name){$/;"	f	file:
+tcddbout	ttskeldir.c	/^static bool tcddbout(TCDDB *ddb, const void *kbuf, int ksiz){$/;"	f	file:
+tcddbput	ttskeldir.c	/^static bool tcddbput(TCDDB *ddb, const void *kbuf, int ksiz, const void *vbuf, int vsiz){$/;"	f	file:
+tcnd	ttutil.h	/^  pthread_cond_t tcnd;                   \/* condition variable for the timer *\/$/;"	m	struct:_TTSERV
+tcrdbadddouble	tcrdb.c	/^double tcrdbadddouble(TCRDB *rdb, const void *kbuf, int ksiz, double num){$/;"	f
+tcrdbadddoubleimpl	tcrdb.c	/^static double tcrdbadddoubleimpl(TCRDB *rdb, const void *kbuf, int ksiz, double num){$/;"	f	file:
+tcrdbaddint	tcrdb.c	/^int tcrdbaddint(TCRDB *rdb, const void *kbuf, int ksiz, int num){$/;"	f
+tcrdbaddintimpl	tcrdb.c	/^static int tcrdbaddintimpl(TCRDB *rdb, const void *kbuf, int ksiz, int num){$/;"	f	file:
+tcrdbclose	tcrdb.c	/^bool tcrdbclose(TCRDB *rdb){$/;"	f
+tcrdbcloseimpl	tcrdb.c	/^static bool tcrdbcloseimpl(TCRDB *rdb){$/;"	f	file:
+tcrdbcopy	tcrdb.c	/^bool tcrdbcopy(TCRDB *rdb, const char *path){$/;"	f
+tcrdbcopyimpl	tcrdb.c	/^static bool tcrdbcopyimpl(TCRDB *rdb, const char *path){$/;"	f	file:
+tcrdbdel	tcrdb.c	/^void tcrdbdel(TCRDB *rdb){$/;"	f
+tcrdbecode	tcrdb.c	/^int tcrdbecode(TCRDB *rdb){$/;"	f
+tcrdberrmsg	tcrdb.c	/^const char *tcrdberrmsg(int ecode){$/;"	f
+tcrdbexpr	tcrdb.c	/^const char *tcrdbexpr(TCRDB *rdb){$/;"	f
+tcrdbexprimpl	tcrdb.c	/^const char *tcrdbexprimpl(TCRDB *rdb){$/;"	f
+tcrdbext	tcrdb.c	/^void *tcrdbext(TCRDB *rdb, const char *name, int opts,$/;"	f
+tcrdbext2	tcrdb.c	/^char *tcrdbext2(TCRDB *rdb, const char *name, int opts, const char *kstr, const char *vstr){$/;"	f
+tcrdbextimpl	tcrdb.c	/^static void *tcrdbextimpl(TCRDB *rdb, const char *name, int opts,$/;"	f	file:
+tcrdbfwmkeys	tcrdb.c	/^TCLIST *tcrdbfwmkeys(TCRDB *rdb, const void *pbuf, int psiz, int max){$/;"	f
+tcrdbfwmkeys2	tcrdb.c	/^TCLIST *tcrdbfwmkeys2(TCRDB *rdb, const char *pstr, int max){$/;"	f
+tcrdbfwmkeysimpl	tcrdb.c	/^static TCLIST *tcrdbfwmkeysimpl(TCRDB *rdb, const void *pbuf, int psiz, int max){$/;"	f	file:
+tcrdbget	tcrdb.c	/^void *tcrdbget(TCRDB *rdb, const void *kbuf, int ksiz, int *sp){$/;"	f
+tcrdbget2	tcrdb.c	/^char *tcrdbget2(TCRDB *rdb, const char *kstr){$/;"	f
+tcrdbget3	tcrdb.c	/^bool tcrdbget3(TCRDB *rdb, TCMAP *recs){$/;"	f
+tcrdbgetimpl	tcrdb.c	/^static void *tcrdbgetimpl(TCRDB *rdb, const void *kbuf, int ksiz, int *sp){$/;"	f	file:
+tcrdbiterinit	tcrdb.c	/^bool tcrdbiterinit(TCRDB *rdb){$/;"	f
+tcrdbiterinitimpl	tcrdb.c	/^static bool tcrdbiterinitimpl(TCRDB *rdb){$/;"	f	file:
+tcrdbiternext	tcrdb.c	/^void *tcrdbiternext(TCRDB *rdb, int *sp){$/;"	f
+tcrdbiternext2	tcrdb.c	/^char *tcrdbiternext2(TCRDB *rdb){$/;"	f
+tcrdbiternextimpl	tcrdb.c	/^static void *tcrdbiternextimpl(TCRDB *rdb, int *sp){$/;"	f	file:
+tcrdblockmethod	tcrdb.c	/^static bool tcrdblockmethod(TCRDB *rdb){$/;"	f	file:
+tcrdbmetasearch	tcrdb.c	/^TCLIST *tcrdbmetasearch(RDBQRY **qrys, int num, int type){$/;"	f
+tcrdbmgetimpl	tcrdb.c	/^static bool tcrdbmgetimpl(TCRDB *rdb, TCMAP *recs){$/;"	f	file:
+tcrdbmisc	tcrdb.c	/^TCLIST *tcrdbmisc(TCRDB *rdb, const char *name, int opts, const TCLIST *args){$/;"	f
+tcrdbmiscimpl	tcrdb.c	/^static TCLIST *tcrdbmiscimpl(TCRDB *rdb, const char *name, int opts, const TCLIST *args){$/;"	f	file:
+tcrdbnew	tcrdb.c	/^TCRDB *tcrdbnew(void){$/;"	f
+tcrdbopen	tcrdb.c	/^bool tcrdbopen(TCRDB *rdb, const char *host, int port){$/;"	f
+tcrdbopen2	tcrdb.c	/^bool tcrdbopen2(TCRDB *rdb, const char *expr){$/;"	f
+tcrdbopenimpl	tcrdb.c	/^static bool tcrdbopenimpl(TCRDB *rdb, const char *host, int port){$/;"	f	file:
+tcrdboptimize	tcrdb.c	/^bool tcrdboptimize(TCRDB *rdb, const char *params){$/;"	f
+tcrdboptimizeimpl	tcrdb.c	/^static bool tcrdboptimizeimpl(TCRDB *rdb, const char *params){$/;"	f	file:
+tcrdbout	tcrdb.c	/^bool tcrdbout(TCRDB *rdb, const void *kbuf, int ksiz){$/;"	f
+tcrdbout2	tcrdb.c	/^bool tcrdbout2(TCRDB *rdb, const char *kstr){$/;"	f
+tcrdboutimpl	tcrdb.c	/^static bool tcrdboutimpl(TCRDB *rdb, const void *kbuf, int ksiz){$/;"	f	file:
+tcrdbput	tcrdb.c	/^bool tcrdbput(TCRDB *rdb, const void *kbuf, int ksiz, const void *vbuf, int vsiz){$/;"	f
+tcrdbput2	tcrdb.c	/^bool tcrdbput2(TCRDB *rdb, const char *kstr, const char *vstr){$/;"	f
+tcrdbputcat	tcrdb.c	/^bool tcrdbputcat(TCRDB *rdb, const void *kbuf, int ksiz, const void *vbuf, int vsiz){$/;"	f
+tcrdbputcat2	tcrdb.c	/^bool tcrdbputcat2(TCRDB *rdb, const char *kstr, const char *vstr){$/;"	f
+tcrdbputcatimpl	tcrdb.c	/^static bool tcrdbputcatimpl(TCRDB *rdb, const void *kbuf, int ksiz, const void *vbuf, int vsiz){$/;"	f	file:
+tcrdbputimpl	tcrdb.c	/^static bool tcrdbputimpl(TCRDB *rdb, const void *kbuf, int ksiz, const void *vbuf, int vsiz){$/;"	f	file:
+tcrdbputkeep	tcrdb.c	/^bool tcrdbputkeep(TCRDB *rdb, const void *kbuf, int ksiz, const void *vbuf, int vsiz){$/;"	f
+tcrdbputkeep2	tcrdb.c	/^bool tcrdbputkeep2(TCRDB *rdb, const char *kstr, const char *vstr){$/;"	f
+tcrdbputkeepimpl	tcrdb.c	/^static bool tcrdbputkeepimpl(TCRDB *rdb, const void *kbuf, int ksiz, const void *vbuf, int vsiz){$/;"	f	file:
+tcrdbputnr	tcrdb.c	/^bool tcrdbputnr(TCRDB *rdb, const void *kbuf, int ksiz, const void *vbuf, int vsiz){$/;"	f
+tcrdbputnr2	tcrdb.c	/^bool tcrdbputnr2(TCRDB *rdb, const char *kstr, const char *vstr){$/;"	f
+tcrdbputnrimpl	tcrdb.c	/^static bool tcrdbputnrimpl(TCRDB *rdb, const void *kbuf, int ksiz, const void *vbuf, int vsiz){$/;"	f	file:
+tcrdbputshl	tcrdb.c	/^bool tcrdbputshl(TCRDB *rdb, const void *kbuf, int ksiz, const void *vbuf, int vsiz, int width){$/;"	f
+tcrdbputshl2	tcrdb.c	/^bool tcrdbputshl2(TCRDB *rdb, const char *kstr, const char *vstr, int width){$/;"	f
+tcrdbputshlimpl	tcrdb.c	/^static bool tcrdbputshlimpl(TCRDB *rdb, const void *kbuf, int ksiz, const void *vbuf, int vsiz,$/;"	f	file:
+tcrdbqryaddcond	tcrdb.c	/^void tcrdbqryaddcond(RDBQRY *qry, const char *name, int op, const char *expr){$/;"	f
+tcrdbqrydel	tcrdb.c	/^void tcrdbqrydel(RDBQRY *qry){$/;"	f
+tcrdbqryhint	tcrdb.c	/^const char *tcrdbqryhint(RDBQRY *qry){$/;"	f
+tcrdbqrynew	tcrdb.c	/^RDBQRY *tcrdbqrynew(TCRDB *rdb){$/;"	f
+tcrdbqrypopmeta	tcrdb.c	/^static void tcrdbqrypopmeta(RDBQRY *qry, TCLIST *res){$/;"	f	file:
+tcrdbqryrescols	tcrdb.c	/^TCMAP *tcrdbqryrescols(TCLIST *res, int index){$/;"	f
+tcrdbqrysearch	tcrdb.c	/^TCLIST *tcrdbqrysearch(RDBQRY *qry){$/;"	f
+tcrdbqrysearchcount	tcrdb.c	/^int tcrdbqrysearchcount(RDBQRY *qry){$/;"	f
+tcrdbqrysearchget	tcrdb.c	/^TCLIST *tcrdbqrysearchget(RDBQRY *qry){$/;"	f
+tcrdbqrysearchout	tcrdb.c	/^bool tcrdbqrysearchout(RDBQRY *qry){$/;"	f
+tcrdbqrysetlimit	tcrdb.c	/^void tcrdbqrysetlimit(RDBQRY *qry, int max, int skip){$/;"	f
+tcrdbqrysetmax	ttutil.h	475;"	d
+tcrdbqrysetorder	tcrdb.c	/^void tcrdbqrysetorder(RDBQRY *qry, const char *name, int type){$/;"	f
+tcrdbreconnect	tcrdb.c	/^static bool tcrdbreconnect(TCRDB *rdb){$/;"	f	file:
+tcrdbrestore	tcrdb.c	/^bool tcrdbrestore(TCRDB *rdb, const char *path, uint64_t ts, int opts){$/;"	f
+tcrdbrestoreimpl	tcrdb.c	/^static bool tcrdbrestoreimpl(TCRDB *rdb, const char *path, uint64_t ts, int opts){$/;"	f	file:
+tcrdbrnum	tcrdb.c	/^uint64_t tcrdbrnum(TCRDB *rdb){$/;"	f
+tcrdbrnumimpl	tcrdb.c	/^static uint64_t tcrdbrnumimpl(TCRDB *rdb){$/;"	f	file:
+tcrdbsend	tcrdb.c	/^static bool tcrdbsend(TCRDB *rdb, const void *buf, int size){$/;"	f	file:
+tcrdbsetecode	tcrdb.c	/^void tcrdbsetecode(TCRDB *rdb, int ecode){$/;"	f
+tcrdbsetmst	tcrdb.c	/^bool tcrdbsetmst(TCRDB *rdb, const char *host, int port, uint64_t ts, int opts){$/;"	f
+tcrdbsetmst2	tcrdb.c	/^bool tcrdbsetmst2(TCRDB *rdb, const char *expr, uint64_t ts, int opts){$/;"	f
+tcrdbsetmstimpl	tcrdb.c	/^static bool tcrdbsetmstimpl(TCRDB *rdb, const char *host, int port, uint64_t ts, int opts){$/;"	f	file:
+tcrdbsize	tcrdb.c	/^uint64_t tcrdbsize(TCRDB *rdb){$/;"	f
+tcrdbsizeimpl	tcrdb.c	/^static uint64_t tcrdbsizeimpl(TCRDB *rdb){$/;"	f	file:
+tcrdbstat	tcrdb.c	/^char *tcrdbstat(TCRDB *rdb){$/;"	f
+tcrdbstatimpl	tcrdb.c	/^static char *tcrdbstatimpl(TCRDB *rdb){$/;"	f	file:
+tcrdbsync	tcrdb.c	/^bool tcrdbsync(TCRDB *rdb){$/;"	f
+tcrdbsyncimpl	tcrdb.c	/^static bool tcrdbsyncimpl(TCRDB *rdb){$/;"	f	file:
+tcrdbtblgenuid	tcrdb.c	/^int64_t tcrdbtblgenuid(TCRDB *rdb){$/;"	f
+tcrdbtblget	tcrdb.c	/^TCMAP *tcrdbtblget(TCRDB *rdb, const void *pkbuf, int pksiz){$/;"	f
+tcrdbtblout	tcrdb.c	/^bool tcrdbtblout(TCRDB *rdb, const void *pkbuf, int pksiz){$/;"	f
+tcrdbtblput	tcrdb.c	/^bool tcrdbtblput(TCRDB *rdb, const void *pkbuf, int pksiz, TCMAP *cols){$/;"	f
+tcrdbtblputcat	tcrdb.c	/^bool tcrdbtblputcat(TCRDB *rdb, const void *pkbuf, int pksiz, TCMAP *cols){$/;"	f
+tcrdbtblputkeep	tcrdb.c	/^bool tcrdbtblputkeep(TCRDB *rdb, const void *pkbuf, int pksiz, TCMAP *cols){$/;"	f
+tcrdbtblsetindex	tcrdb.c	/^bool tcrdbtblsetindex(TCRDB *rdb, const char *name, int type){$/;"	f
+tcrdbtune	tcrdb.c	/^bool tcrdbtune(TCRDB *rdb, double timeout, int opts){$/;"	f
+tcrdbtuneimpl	tcrdb.c	/^static bool tcrdbtuneimpl(TCRDB *rdb, double timeout, int opts){$/;"	f	file:
+tcrdbunlockmethod	tcrdb.c	/^static void tcrdbunlockmethod(TCRDB *rdb){$/;"	f	file:
+tcrdbvanish	tcrdb.c	/^bool tcrdbvanish(TCRDB *rdb){$/;"	f
+tcrdbvanishimpl	tcrdb.c	/^static bool tcrdbvanishimpl(TCRDB *rdb){$/;"	f	file:
+tcrdbvsiz	tcrdb.c	/^int tcrdbvsiz(TCRDB *rdb, const void *kbuf, int ksiz){$/;"	f
+tcrdbvsiz2	tcrdb.c	/^int tcrdbvsiz2(TCRDB *rdb, const char *kstr){$/;"	f
+tcrdbvsizimpl	tcrdb.c	/^static int tcrdbvsizimpl(TCRDB *rdb, const void *kbuf, int ksiz){$/;"	f	file:
+tcreplclose	tculog.c	/^bool tcreplclose(TCREPL *repl){$/;"	f
+tcrepldel	tculog.c	/^void tcrepldel(TCREPL *repl){$/;"	f
+tcreplnew	tculog.c	/^TCREPL *tcreplnew(void){$/;"	f
+tcreplopen	tculog.c	/^bool tcreplopen(TCREPL *repl, const char *host, int port, uint64_t ts, uint32_t sid){$/;"	f
+tcreplread	tculog.c	/^const char *tcreplread(TCREPL *repl, int *sp, uint64_t *tsp, uint32_t *sidp){$/;"	f
+tculogadbadddouble	tculog.c	/^double tculogadbadddouble(TCULOG *ulog, uint32_t sid, uint32_t mid, TCADB *adb,$/;"	f
+tculogadbaddint	tculog.c	/^int tculogadbaddint(TCULOG *ulog, uint32_t sid, uint32_t mid, TCADB *adb,$/;"	f
+tculogadbmisc	tculog.c	/^TCLIST *tculogadbmisc(TCULOG *ulog, uint32_t sid, uint32_t mid, TCADB *adb,$/;"	f
+tculogadboptimize	tculog.c	/^bool tculogadboptimize(TCULOG *ulog, uint32_t sid, uint32_t mid, TCADB *adb, const char *params){$/;"	f
+tculogadbout	tculog.c	/^bool tculogadbout(TCULOG *ulog, uint32_t sid, uint32_t mid, TCADB *adb,$/;"	f
+tculogadbput	tculog.c	/^bool tculogadbput(TCULOG *ulog, uint32_t sid, uint32_t mid, TCADB *adb,$/;"	f
+tculogadbputcat	tculog.c	/^bool tculogadbputcat(TCULOG *ulog, uint32_t sid, uint32_t mid, TCADB *adb,$/;"	f
+tculogadbputkeep	tculog.c	/^bool tculogadbputkeep(TCULOG *ulog, uint32_t sid, uint32_t mid, TCADB *adb,$/;"	f
+tculogadbredo	tculog.c	/^bool tculogadbredo(TCADB *adb, const char *ptr, int size, TCULOG *ulog,$/;"	f
+tculogadbrestore	tculog.c	/^bool tculogadbrestore(TCADB *adb, const char *path, uint64_t ts, bool con, TCULOG *ulog){$/;"	f
+tculogadbsync	tculog.c	/^bool tculogadbsync(TCULOG *ulog, uint32_t sid, uint32_t mid, TCADB *adb){$/;"	f
+tculogadbvanish	tculog.c	/^bool tculogadbvanish(TCULOG *ulog, uint32_t sid, uint32_t mid, TCADB *adb){$/;"	f
+tculogbegin	tculog.c	/^bool tculogbegin(TCULOG *ulog, int idx){$/;"	f
+tculogclose	tculog.c	/^bool tculogclose(TCULOG *ulog){$/;"	f
+tculogdel	tculog.c	/^void tculogdel(TCULOG *ulog){$/;"	f
+tculogend	tculog.c	/^bool tculogend(TCULOG *ulog, int idx){$/;"	f
+tculogflushaiocbp	tculog.c	/^static bool tculogflushaiocbp(struct aiocb *aiocbp){$/;"	f	file:
+tculognew	tculog.c	/^TCULOG *tculognew(void){$/;"	f
+tculogopen	tculog.c	/^bool tculogopen(TCULOG *ulog, const char *base, uint64_t limsiz){$/;"	f
+tculogrmtxidx	tculog.c	/^int tculogrmtxidx(TCULOG *ulog, const char *kbuf, int ksiz){$/;"	f
+tculogsetaio	tculog.c	/^bool tculogsetaio(TCULOG *ulog){$/;"	f
+tculogwrite	tculog.c	/^bool tculogwrite(TCULOG *ulog, uint64_t ts, uint32_t sid, uint32_t mid,$/;"	f
+tculrddel	tculog.c	/^void tculrddel(TCULRD *ulrd){$/;"	f
+tculrdnew	tculog.c	/^TCULRD *tculrdnew(TCULOG *ulog, uint64_t ts){$/;"	f
+tculrdread	tculog.c	/^const void *tculrdread(TCULRD *ulrd, int *sp, uint64_t *tsp, uint32_t *sidp, uint32_t *midp){$/;"	f
+tculrdwait	tculog.c	/^void tculrdwait(TCULRD *ulrd){$/;"	f
+term	scrext.c	/^  bool term;                             \/\/ terminate flag$/;"	m	struct:_SCREXT	file:
+term	scrext.c	/^  bool term;                             \/\/ terminate flag$/;"	m	struct:__anon13	file:
+term	ttutil.h	/^  bool term;                             \/* terminate flag *\/$/;"	m	struct:_TTSERV
+thid	scrext.c	/^  int thid;                              \/\/ thread ID$/;"	m	struct:_SCREXT	file:
+thid	scrext.c	/^  int thid;                              \/\/ thread ID$/;"	m	struct:__anon12	file:
+thid	scrext.c	/^  int thid;                              \/\/ thread ID$/;"	m	struct:__anon13	file:
+thid	ttutil.h	/^  pthread_t thid;                        \/* thread ID *\/$/;"	m	struct:_TTREQ
+thid	ttutil.h	/^  pthread_t thid;                        \/* thread ID *\/$/;"	m	struct:_TTTIMER
+thnum	scrext.c	/^  int thnum;                             \/\/ number of native threads$/;"	m	struct:_SCREXT	file:
+thnum	scrext.c	/^  int thnum;                             \/\/ number of native threads$/;"	m	struct:__anon12	file:
+thnum	scrext.c	/^  int thnum;                             \/\/ number of native threads$/;"	m	struct:__anon13	file:
+thnum	ttserver.c	/^  int thnum;                             \/\/ number of threads$/;"	m	struct:__anon34	file:
+thnum	ttutil.h	/^  int thnum;                             \/* number of threads *\/$/;"	m	struct:_TTSERV
+threadread	tcrmttest.c	/^static void *threadread(void *targ){$/;"	f	file:
+threadread	ttultest.c	/^static void *threadread(void *targ){$/;"	f	file:
+threadremove	tcrmttest.c	/^static void *threadremove(void *targ){$/;"	f	file:
+threadtable	tcrmttest.c	/^static void *threadtable(void *targ){$/;"	f	file:
+threadtypical	tcrmttest.c	/^static void *threadtypical(void *targ){$/;"	f	file:
+threadwrite	tcrmttest.c	/^static void *threadwrite(void *targ){$/;"	f	file:
+time	ext/senatus.lua	/^function time(key, value)$/;"	f
+timeout	tcrdb.h	/^  double timeout;                        \/* timeout *\/$/;"	m	struct:__anon1
+timeout	ttutil.h	/^  double timeout;                        \/* timeout milliseconds of each task *\/$/;"	m	struct:_TTSERV
+timernum	ttutil.h	/^  int timernum;                          \/* number of timer objects *\/$/;"	m	struct:_TTSERV
+timers	ttutil.h	/^  TTTIMER timers[TTTIMERMAX];            \/* timer objects *\/$/;"	m	struct:_TTSERV
+tmtx	ttutil.h	/^  pthread_mutex_t tmtx;                  \/* mutex for the timer *\/$/;"	m	struct:_TTSERV
+tokenize	ttserver.c	/^static char **tokenize(char *str, int *np){$/;"	f	file:
+ts	tculog.h	/^  uint64_t ts;                           \/* beginning timestamp *\/$/;"	m	struct:__anon26
+ttacceptsock	ttutil.c	/^int ttacceptsock(int fd, char *addr, int *pp){$/;"	f
+ttacceptsockunix	ttutil.c	/^int ttacceptsockunix(int fd){$/;"	f
+ttbreakservexpr	ttutil.c	/^char *ttbreakservexpr(const char *expr, int *pp){$/;"	f
+ttclosesock	ttutil.c	/^bool ttclosesock(int fd){$/;"	f
+ttcmdidtostr	ttutil.c	/^const char *ttcmdidtostr(int id){$/;"	f
+ttdaemonize	ttutil.c	/^bool ttdaemonize(void){$/;"	f
+ttgethostaddr	ttutil.c	/^bool ttgethostaddr(const char *name, char *addr){$/;"	f
+ttgetloadavg	ttutil.c	/^double ttgetloadavg(void){$/;"	f
+ttgetlocalhostname	ttutil.c	/^bool ttgetlocalhostname(char *name){$/;"	f
+tthttpfetch	ttutil.c	/^int tthttpfetch(const char *url, TCMAP *reqheads, TCMAP *resheads, TCXSTR *resbody){$/;"	f
+ttopenservsock	ttutil.c	/^int ttopenservsock(const char *addr, int port){$/;"	f
+ttopenservsockunix	ttutil.c	/^int ttopenservsockunix(const char *path){$/;"	f
+ttopensock	ttutil.c	/^int ttopensock(const char *addr, int port){$/;"	f
+ttopensockunix	ttutil.c	/^int ttopensockunix(const char *path){$/;"	f
+ttpackdouble	ttutil.c	/^void ttpackdouble(double num, char *buf){$/;"	f
+ttservaddtimedhandler	ttutil.c	/^void ttservaddtimedhandler(TTSERV *serv, double freq, void (*do_timed)(void *), void *opq){$/;"	f
+ttservconf	ttutil.c	/^bool ttservconf(TTSERV *serv, const char *host, int port){$/;"	f
+ttservdel	ttutil.c	/^void ttservdel(TTSERV *serv){$/;"	f
+ttservdeqtasks	ttutil.c	/^static void *ttservdeqtasks(void *argp){$/;"	f	file:
+ttserviskilled	ttutil.c	/^bool ttserviskilled(TTSERV *serv){$/;"	f
+ttservkill	ttutil.c	/^bool ttservkill(TTSERV *serv){$/;"	f
+ttservlog	ttutil.c	/^void ttservlog(TTSERV *serv, int level, const char *format, ...){$/;"	f
+ttservnew	ttutil.c	/^TTSERV *ttservnew(void){$/;"	f
+ttservsetloghandler	ttutil.c	/^void ttservsetloghandler(TTSERV *serv, void (*do_log)(int, const char *, void *), void *opq){$/;"	f
+ttservsettaskhandler	ttutil.c	/^void ttservsettaskhandler(TTSERV *serv, void (*do_task)(TTSOCK *, void *, TTREQ *), void *opq){$/;"	f
+ttservsettermhandler	ttutil.c	/^void ttservsettermhandler(TTSERV *serv, void (*do_term)(void *), void *opq){$/;"	f
+ttservstart	ttutil.c	/^bool ttservstart(TTSERV *serv){$/;"	f
+ttservtask	ttutil.c	/^static void ttservtask(TTSOCK *sock, TTREQ *req){$/;"	f	file:
+ttservtimer	ttutil.c	/^static void *ttservtimer(void *argp){$/;"	f	file:
+ttservtune	ttutil.c	/^void ttservtune(TTSERV *serv, int thnum, double timeout){$/;"	f
+ttsockcheckend	ttutil.c	/^bool ttsockcheckend(TTSOCK *sock){$/;"	f
+ttsockcheckpfsiz	ttutil.c	/^int ttsockcheckpfsiz(TTSOCK *sock){$/;"	f
+ttsockdel	ttutil.c	/^void ttsockdel(TTSOCK *sock){$/;"	f
+ttsockgetc	ttutil.c	/^int ttsockgetc(TTSOCK *sock){$/;"	f
+ttsockgetint32	ttutil.c	/^uint32_t ttsockgetint32(TTSOCK *sock){$/;"	f
+ttsockgetint64	ttutil.c	/^uint64_t ttsockgetint64(TTSOCK *sock){$/;"	f
+ttsockgets	ttutil.c	/^bool ttsockgets(TTSOCK *sock, char *buf, int size){$/;"	f
+ttsockgets2	ttutil.c	/^char *ttsockgets2(TTSOCK *sock){$/;"	f
+ttsocknew	ttutil.c	/^TTSOCK *ttsocknew(int fd){$/;"	f
+ttsockprintf	ttutil.c	/^bool ttsockprintf(TTSOCK *sock, const char *format, ...){$/;"	f
+ttsockrecv	ttutil.c	/^bool ttsockrecv(TTSOCK *sock, char *buf, int size){$/;"	f
+ttsocksend	ttutil.c	/^bool ttsocksend(TTSOCK *sock, const void *buf, int size){$/;"	f
+ttsocksetlife	ttutil.c	/^void ttsocksetlife(TTSOCK *sock, double lifetime){$/;"	f
+ttsockungetc	ttutil.c	/^void ttsockungetc(TTSOCK *sock, int c){$/;"	f
+ttstrtots	ttutil.c	/^uint64_t ttstrtots(const char *str){$/;"	f
+ttunpackdouble	ttutil.c	/^double ttunpackdouble(const char *buf){$/;"	f
+ttversion	ttutil.c	/^const char *ttversion = _TT_VERSION;$/;"	v
+ulog	scrext.c	/^  TCULOG *ulog;                          \/\/ update log object$/;"	m	struct:_SCREXT	file:
+ulog	scrext.c	/^  TCULOG *ulog;                          \/\/ update log object$/;"	m	struct:__anon13	file:
+ulog	tculog.h	/^  TCULOG *ulog;                          \/* update log object *\/$/;"	m	struct:__anon26
+ulog	ttserver.c	/^  TCULOG *ulog;                          \/\/ update log object$/;"	m	struct:__anon31	file:
+ulog	ttserver.c	/^  TCULOG *ulog;                          \/\/ update log object$/;"	m	struct:__anon32	file:
+ulog	ttserver.c	/^  TCULOG *ulog;                          \/\/ update log object$/;"	m	struct:__anon33	file:
+ulrd	ttulmgr.c	/^  TCULRD *ulrd;$/;"	m	struct:__anon24	file:
+ulrd	ttultest.c	/^  TCULRD *ulrd;$/;"	m	struct:__anon14	file:
+unescape	man/htmltoman	/^function unescape(text){$/;"	f
+unlock	ext/senatus.lua	/^function unlock(key, value)$/;"	f
+usage	tcrmgr.c	/^static void usage(void){$/;"	f	file:
+usage	tcrmttest.c	/^static void usage(void){$/;"	f	file:
+usage	tcrtest.c	/^static void usage(void){$/;"	f	file:
+usage	ttserver.c	/^static void usage(void){$/;"	f	file:
+usage	ttulmgr.c	/^static void usage(void){$/;"	f	file:
+usage	ttultest.c	/^static void usage(void){$/;"	f	file:
+vanish	ext/senatus.lua	/^function vanish(key, value)$/;"	f
+vsiz	ext/senatus.lua	/^function vsiz(key, value)$/;"	f
+wmtx	tculog.h	/^  pthread_mutex_t wmtx;                  \/* mutex for waiting condition *\/$/;"	m	struct:__anon25
+wordcount	ext/mapreduce.lua	/^function wordcount(texpr)$/;"	f
+xget	ext/usherette.lua	/^function xget(uri)$/;"	f
+xout	ext/usherette.lua	/^function xout(uri)$/;"	f
+xput	ext/usherette.lua	/^function xput(uri, text)$/;"	f
+xsearch	ext/usherette.lua	/^function xsearch(phrase, max)$/;"	f
